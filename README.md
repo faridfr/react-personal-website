@@ -1,1 +1,1 @@
-# faridfr.github.io
+# FaridFr.Github.io
