@@ -2,7 +2,7 @@
 	"name": "faridfr.github.io",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://faridfr.github.io/faridfr.github.io",
+	"homepage": "http://faridfr.github.io/react-personal-website",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
