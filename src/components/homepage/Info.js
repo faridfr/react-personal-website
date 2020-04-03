@@ -22,7 +22,7 @@ const Info = props => {
 	`;
 
 	return (
-		<InfoContainer className='col-6'>
+		<InfoContainer className='col-lg-6 col-sm-12'>
 			<Intro info={info}></Intro>
 			<Divider size='large'></Divider>
 			<About about={info.about}></About>

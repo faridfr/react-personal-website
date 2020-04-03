@@ -11,7 +11,11 @@ const MypicDiv = styled.div`
 `;
 function App() {
 	return (
-		<MypicDiv className='col-6' onclick='clickOnMyPic()' id='mypicDiv'>
+		<MypicDiv
+			className='col-lg-6 col-sm-12'
+			onclick='clickOnMyPic()'
+			id='mypicDiv'
+		>
 			<div id='overlay'></div>
 		</MypicDiv>
 	);
