@@ -15,7 +15,32 @@ const data = {
 	contact: {
 		mobile: '+98 936 496 1262',
 		email: 'froozan [at] yahoo.com'
-	}
+	},
+	skills: [
+		{
+			header: {
+				name: 'server side',
+				color: 'rgb(255, 193, 7, 0.5)',
+				percent: '90'
+			},
+			skills: [
+				{ name: 'php', degree: 'senior' },
+				{ name: 'node js', degree: 'intermediate' }
+			]
+		},
+		{
+			header: {
+				name: 'client side',
+				color: 'rgb(8, 253, 216, 0.5)',
+				percent: '60'
+			},
+			skills: [
+				{ name: 'php', degree: 'senior' },
+				{ name: 'node js', degree: 'intermediate' }
+			]
+		}
+	],
+	experience: {}
 };
 
 function App() {

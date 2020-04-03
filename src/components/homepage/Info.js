@@ -7,6 +7,7 @@ import Divider from './Divider';
 import Contact from './Contact';
 import About from './About';
 import Intro from './Intro';
+import Experience from './ExperienceItem';
 
 const InfoContainer = styled.div`
 	height: 100vh;
@@ -18,7 +19,7 @@ const InfoContainer = styled.div`
 `;
 
 const Info = props => {
-	const { info, skills, contact } = props.data;
+	const { info, skills, experience, contact } = props.data;
 
 	return (
 		<InfoContainer className='col-6'>
@@ -27,6 +28,8 @@ const Info = props => {
 			<About about={info.about}></About>
 			<Divider size='large'></Divider>
 			<Skills skills={skills}></Skills>
+			<Divider size='large'></Divider>
+			<Experience experience={experience}></Experience>
 			<Divider size='large'></Divider>
 			<Contact contact={contact}></Contact>
 		</InfoContainer>

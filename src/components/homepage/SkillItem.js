@@ -1,17 +1,32 @@
 import React from 'react';
 
-function App() {
+const SkillItem = props => {
+	let badgeClass = 'light';
+	const skill = props.skill;
+	switch (skill.degree) {
+		case 'senior':
+			badgeClass = 'warning';
+			break;
+		case 'intermediate':
+			badgeClass = 'light';
+			break;
+		case 'junior':
+			badgeClass = 'dark';
+			break;
+		default:
+			badgeClass = 'light';
+	}
 	return (
 		<div className='col-6'>
-			<div className='skillName'>PHP Fundamental</div>
+			<div className='skillName'>{skill.name.toUpperCase()}</div>
 			<span
-				className='badge badge-warning'
+				className={`badge badge-${badgeClass}`}
 				style={{ float: 'right', fontFamily: 'farid' }}
 			>
-				SENIOR
+				{skill.degree.toUpperCase()}
 			</span>
 		</div>
 	);
-}
+};
 
-export default App;
+export default SkillItem;
