@@ -17,7 +17,7 @@ const SkillItem = props => {
 			badgeClass = 'light';
 	}
 	return (
-		<div className='col-6'>
+		<div className='col-lg-6 col-sm-12'>
 			<div className='skillName'>{skill.name}</div>
 			<span
 				className={`badge badge-${badgeClass}`}

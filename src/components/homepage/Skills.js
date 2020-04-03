@@ -14,7 +14,10 @@ const Skills = props => {
 			{skills.map(skill => (
 				<div className='description'>
 					<div className='row skills'>
-						<div className='col-12' style={{ marginTop: '35px' }}>
+						<div
+							className='col-12'
+							style={{ marginTop: '35px', marginBottom: '15px' }}
+						>
 							<div
 								className='skillName'
 								style={{
