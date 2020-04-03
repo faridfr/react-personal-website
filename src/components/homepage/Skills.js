@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import SkillItem from './SkillItem';
 import ExperienceItem from './Experience';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,18 +13,16 @@ function App() {
 
 			<div className='description'>
 				<div className='row skills'>
-					<Fragment>
-						<div className='col-12' style={{ marginTop: '35px' }}>
-							<div className='skillName backendTitle'>SERVER SIDE</div>
-							<div className='progress' style={{ marginTop: '10px' }}>
-								<div
-									className='progress-bar backend'
-									style={{ width: '85%' }}
-								></div>
-							</div>
+					<div className='col-12' style={{ marginTop: '35px' }}>
+						<div className='skillName backendTitle'>SERVER SIDE</div>
+						<div className='progress' style={{ marginTop: '10px' }}>
+							<div
+								className='progress-bar backend'
+								style={{ width: '85%' }}
+							></div>
 						</div>
-						<SkillItem></SkillItem>
-					</Fragment>
+					</div>
+					<SkillItem></SkillItem>
 				</div>
 
 				<div className='row experience' style={{ marginTop: '60px' }}>
