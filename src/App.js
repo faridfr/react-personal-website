@@ -5,12 +5,19 @@ import './css/jquery.toast.css';
 import Images from './components/homepage/Images';
 import Info from './components/homepage/Info';
 
+const data = {
+	info: {
+		name: 'Farid Froozan',
+		jobTitle: 'Full Stack Developer'
+	}
+};
+
 function App() {
 	return (
 		<div className='container-fluid'>
 			<div className='row'>
 				<Images></Images>
-				<Info></Info>
+				<Info data={data}></Info>
 			</div>
 		</div>
 	);

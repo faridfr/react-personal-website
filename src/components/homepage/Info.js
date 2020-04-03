@@ -7,7 +7,7 @@ import Divider from './Divider';
 import Contact from './Contact';
 import About from './About';
 
-const Info = styled.div`
+const InfoContainer = styled.div`
 	height: 100vh;
 	overflow-y: scroll;
 	background-color: #1d1d1d;
@@ -16,15 +16,25 @@ const Info = styled.div`
 	padding: 50px 50px;
 `;
 
-function App() {
+const Info = props => {
+	const { info } = props.data;
+
 	return (
-		<Info className='col-6'>
+		<InfoContainer className='col-6'>
 			<div className='intro'>
 				<h1>Hi,</h1>
 				<h1>
-					I'm <span style={{ color: '#FD1056' }}>Farid Fr</span>oozan,
+					I'm{' '}
+					<span style={{ color: '#FD1056' }}>
+						{info.name.split(' ')[0]} {info.name.split(' ')[1].substring(0, 2)}
+					</span>
+					{info.name.substring(
+						info.name.split(' ')[0].length + 3,
+						info.name.length
+					)}
+					,
 				</h1>
-				<h1>Full Stack Developer.</h1>
+				<h1>{info.jobTitle}</h1>
 			</div>
 
 			<Divider size='large'></Divider>
@@ -33,8 +43,8 @@ function App() {
 			<Skills></Skills>
 			<Divider size='large'></Divider>
 			<Contact></Contact>
-		</Info>
+		</InfoContainer>
 	);
-}
+};
 
-export default App;
+export default Info;
