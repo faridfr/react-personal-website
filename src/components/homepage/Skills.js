@@ -1,20 +1,37 @@
 import React, { Fragment } from 'react';
 import SkillItem from './SkillItem';
+import ExperienceItem from './Experience';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../App.css';
 
 function App() {
 	return (
-		<Fragment>
-			<div className='col-12' style={{ marginTop: '35px' }}>
-				<div className='skillName backendTitle'>SERVER SIDE</div>
-				<div className='progress' style={{ marginTop: '10px' }}>
-					<div className='progress-bar backend' style={{ width: '85%' }}></div>
-				</div>
+		<div className='skills'>
+			<div className='title'>
+				Skills & <br></br>Exprerience
 			</div>
 
-			<SkillItem></SkillItem>
-		</Fragment>
+			<div className='description'>
+				<div className='row skills'>
+					<Fragment>
+						<div className='col-12' style={{ marginTop: '35px' }}>
+							<div className='skillName backendTitle'>SERVER SIDE</div>
+							<div className='progress' style={{ marginTop: '10px' }}>
+								<div
+									className='progress-bar backend'
+									style={{ width: '85%' }}
+								></div>
+							</div>
+						</div>
+						<SkillItem></SkillItem>
+					</Fragment>
+				</div>
+
+				<div className='row experience' style={{ marginTop: '60px' }}>
+					<ExperienceItem></ExperienceItem>
+				</div>
+			</div>
+		</div>
 	);
 }
 
