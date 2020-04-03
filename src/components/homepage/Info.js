@@ -6,6 +6,7 @@ import Skills from './Skills';
 import Divider from './Divider';
 import Contact from './Contact';
 import About from './About';
+import Intro from './Intro';
 
 const InfoContainer = styled.div`
 	height: 100vh;
@@ -17,32 +18,17 @@ const InfoContainer = styled.div`
 `;
 
 const Info = props => {
-	const { info } = props.data;
+	const { info, skills, contact } = props.data;
 
 	return (
 		<InfoContainer className='col-6'>
-			<div className='intro'>
-				<h1>Hi,</h1>
-				<h1>
-					I'm{' '}
-					<span style={{ color: '#FD1056' }}>
-						{info.name.split(' ')[0]} {info.name.split(' ')[1].substring(0, 2)}
-					</span>
-					{info.name.substring(
-						info.name.split(' ')[0].length + 3,
-						info.name.length
-					)}
-					,
-				</h1>
-				<h1>{info.jobTitle}</h1>
-			</div>
-
+			<Intro info={info}></Intro>
 			<Divider size='large'></Divider>
-			<About></About>
+			<About about={info.about}></About>
 			<Divider size='large'></Divider>
-			<Skills></Skills>
+			<Skills skills={skills}></Skills>
 			<Divider size='large'></Divider>
-			<Contact></Contact>
+			<Contact contact={contact}></Contact>
 		</InfoContainer>
 	);
 };

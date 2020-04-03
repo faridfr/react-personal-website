@@ -8,7 +8,13 @@ import Info from './components/homepage/Info';
 const data = {
 	info: {
 		name: 'Farid Froozan',
-		jobTitle: 'Full Stack Developer'
+		jobTitle: 'Full Stack Developer',
+		about:
+			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, reprehenderit culpa, tempore dolorem asperiores nesciunt accusantium quibusdam doloremque voluptate quas aliquam et molestias accusamus velit, incidunt pariatur obcaecati. Cupiditate, laborum?'
+	},
+	contact: {
+		mobile: '+98 936 496 1262',
+		email: 'froozan [at] yahoo.com'
 	}
 };
 
