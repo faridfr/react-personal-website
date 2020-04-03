@@ -50,7 +50,7 @@ const Images = (props) => {
 
 	return (
 		<MypicDiv
-			className='col-lg-6 col-sm-12'
+			className='col-lg-6 d-none d-lg-block'
 			onClick={clickOnMyPic}
 			id='mypicDiv'
 		>
