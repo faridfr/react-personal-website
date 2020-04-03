@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../App.css';
 
-const App = props => {
+const Divider = props => {
 	return <div className={`clear-${props.size}`}></div>;
 };
 
-export default App;
+export default Divider;

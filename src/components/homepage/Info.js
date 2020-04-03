@@ -7,19 +7,19 @@ import Divider from './Divider';
 import Contact from './Contact';
 import About from './About';
 import Intro from './Intro';
-import Experience from './ExperienceItem';
-
-const InfoContainer = styled.div`
-	height: 100vh;
-	overflow-y: scroll;
-	background-color: #1d1d1d;
-	position: relative;
-	color: white;
-	padding: 50px 50px;
-`;
+import Experiences from './Experiences';
 
 const Info = props => {
-	const { info, skills, experience, contact } = props.data;
+	const { info, skills, experiences, contact, settings } = props.data;
+
+	const InfoContainer = styled.div`
+		height: 100vh;
+		overflow-y: scroll;
+		background-color: ${settings.backgroundColor};
+		position: relative;
+		color: ${settings.textColor};
+		padding: ${settings.padding}px;
+	`;
 
 	return (
 		<InfoContainer className='col-6'>
@@ -29,7 +29,7 @@ const Info = props => {
 			<Divider size='large'></Divider>
 			<Skills skills={skills}></Skills>
 			<Divider size='large'></Divider>
-			<Experience experience={experience}></Experience>
+			<Experiences experiences={experiences}></Experiences>
 			<Divider size='large'></Divider>
 			<Contact contact={contact}></Contact>
 		</InfoContainer>

@@ -6,6 +6,11 @@ import Images from './components/homepage/Images';
 import Info from './components/homepage/Info';
 
 const data = {
+	settings: {
+		textColor: 'white',
+		backgroundColor: '#1d1d1d',
+		padding: '50'
+	},
 	info: {
 		name: 'Farid Froozan',
 		jobTitle: 'Full Stack Developer',
@@ -40,7 +45,22 @@ const data = {
 			]
 		}
 	],
-	experience: {}
+	experiences: [
+		{
+			logo: 'img/logos/farazin-color.png',
+			title: 'CTO - Farazin',
+			time: 'Aug 2018 - Present',
+			description:
+				'Leader of development team , schema designer and Back-End developer Our target is making automate all actions in factory , such asadministrative affairs, production planning, accounting andwarehousing, production line monitoring .'
+		},
+		{
+			logo: 'img/logos/farazin-color.png',
+			title: 'CTO - Farazin',
+			time: 'Aug 2018 - Present',
+			description:
+				'Leader of development team , schema designer and Back-End developer Our target is making automate all actions in factory , such asadministrative affairs, production planning, accounting andwarehousing, production line monitoring .'
+		}
+	]
 };
 
 function App() {
