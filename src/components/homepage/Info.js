@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../App.css';
 import Skills from './Skills';
 import ExperienceItem from './Experience';
+import Divider from './Divider';
 
 const Info = styled.div`
 	height: 100vh;
@@ -25,7 +26,7 @@ function App() {
 				<h1>Full Stack Developer.</h1>
 			</div>
 
-			<div className='clear-large'></div>
+			<Divider size='large'></Divider>
 
 			<div className='about'>
 				<div className='title'>About Me</div>
@@ -37,7 +38,7 @@ function App() {
 				</div>
 			</div>
 
-			<div className='clear-large'></div>
+			<Divider size='large'></Divider>
 
 			<div className='skills'>
 				<div className='title'>
@@ -54,50 +55,52 @@ function App() {
 					</div>
 				</div>
 
-				{/* <div className='clear-medium'></div> */}
+				<Divider size='large'></Divider>
+
+				<div className='educations'>
+					<div className='title'>Educations</div>
+					<div className='description' style={{ paddingTop: '30px' }}>
+						<div
+							className='row'
+							id='master'
+							style={{ padding: '0px', margin: '0px' }}
+						>
+							<div className='col-1'>
+								<img
+									src={`${process.env.PUBLIC_URL}/img/logos/master.png`}
+									className='img-fluid company-logo'
+									alt='University'
+								></img>
+							</div>
+							<div className='col-8'>
+								<h4 style={{ fontFamily: 'farid' }}>Islamic Azad University</h4>
+							</div>
+							<div className='col-3'>
+								<h6 style={{ fontFamily: 'farid', float: 'right' }}>
+									2019 - 2022
+								</h6>
+							</div>
+							<div
+								className='col-11 offset-1'
+								style={{ textAlign: 'justify', fontSize: '0.8rem' }}
+							>
+								<h6>Master's degree - Software Engineering</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<Divider size='large'></Divider>
+
+				<div className='contact'>
+					<div className='title'>Contact Me</div>
+					<div className='description' style={{ fontFamily: 'farid' }}>
+						+98 936-496-1262<br></br>
+						froozan [at] yahoo.com
+					</div>
+				</div>
 			</div>
 		</Info>
-
-		// <div className='clear-large'></div>
-
-		// 	<div className='educations'>
-		// 		<div className='title'>Educations</div>
-		// 		<div className='description' style='padding-top:30px;'>
-		// 			<div className='row' id='master' style='padding:0x; margin:0px;'>
-		// 				<div className='col-1'>
-		// 					<img
-		// 						src='img/logos/master.png'
-		// 						className='img-fluid company-logo'
-		// 					></img>
-		// 				</div>
-		// 				<div className='col-8'>
-		// 					<h4 style="font-family:'farid';">Islamic Azad University</h4>
-		// 				</div>
-		// 				<div className='col-3'>
-		// 					<h6 style="font-family:'farid'; float:right;">2019 - 2022</h6>
-		// 				</div>
-		// 				<div
-		// 					className='col-11 offset-1'
-		// 					style='text-align:justify; font-size:0.8rem;'
-		// 				>
-		// 					<h6>
-		// 						Master's degree Field Of StudyComputer Software Engineering
-		// 					</h6>
-		// 				</div>
-		// 			</div>
-
-		// 	</div>
-
-		// 	<div className='clear-large'></div>
-
-		// 	<div className='contact'>
-		// 		<div className='title'>Contact Me</div>
-
-		// 		<div className='description' style="font-family: 'farid'">
-		// 			+98 936-496-1262<br></br>
-		// 			froozan [at] yahoo.com
-		// 		</div>
-		// 	</div>
 	);
 }
 
