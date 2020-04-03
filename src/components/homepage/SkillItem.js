@@ -18,7 +18,7 @@ const SkillItem = props => {
 	}
 	return (
 		<div className='col-6'>
-			<div className='skillName'>{skill.name.toUpperCase()}</div>
+			<div className='skillName'>{skill.name}</div>
 			<span
 				className={`badge badge-${badgeClass}`}
 				style={{ float: 'right', fontFamily: 'farid' }}
