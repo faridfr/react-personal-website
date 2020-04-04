@@ -4,6 +4,7 @@ import {
 	faCircle,
 	faDotCircle,
 	faCircleNotch,
+	faImages,
 } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
@@ -11,23 +12,23 @@ function renderSwitch(status) {
 	switch (status) {
 		case 'online':
 			return (
-				<Fragment>
+				<div style={{ marginRight: '15px', display: 'inline' }}>
 					<FontAwesomeIcon icon={faCircle} /> Online
-				</Fragment>
+				</div>
 			);
 
 		case 'away':
 			return (
-				<Fragment>
+				<div style={{ marginRight: '15px', display: 'inline' }}>
 					<FontAwesomeIcon icon={faDotCircle} /> Code + Memories
-				</Fragment>
+				</div>
 			);
 
 		case 'offline':
 			return (
-				<Fragment>
+				<div style={{ marginRight: '15px', display: 'inline' }}>
 					<FontAwesomeIcon icon={faCircleNotch} /> Just Memories
-				</Fragment>
+				</div>
 			);
 
 		case 'hidden':
@@ -84,7 +85,12 @@ const ExperienceItem = (props) => {
 						opacity: 0.4,
 					}}
 				>
-					{renderSwitch(experience.status)}
+					{renderSwitch(experience.status)}{' '}
+					{experience.images !== undefined ? (
+						<Fragment>
+							<FontAwesomeIcon icon={faImages} /> {experience.images.length}{' '}
+						</Fragment>
+					) : null}
 				</div>
 			</div>
 		</Link>
