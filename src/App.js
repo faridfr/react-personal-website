@@ -9,6 +9,7 @@ import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { Router, Route, Switch } from 'react-router-dom';
 import ExperiencePage from './components/experience/ExperiencePage';
 import { createBrowserHistory } from 'history';
+import SimpleReactLightbox from 'simple-react-lightbox';
 
 library.add(fab, faCheckSquare, faCoffee);
 const history = createBrowserHistory();
@@ -16,23 +17,25 @@ const history = createBrowserHistory();
 function App() {
 	const data = require('./config.json');
 	return (
-		<Router history={history}>
-			<div className='container-fluid'>
-				<div className='row'>
-					<Switch>
-						<Route
-							exact
-							path={process.env.PUBLIC_URL + '/'}
-							component={() => <Homepage data={data} />}
-						/>
-						<Route
-							path={process.env.PUBLIC_URL + '/experience/:title'}
-							component={() => <ExperiencePage data={data} />}
-						/>
-					</Switch>
+		<SimpleReactLightbox>
+			<Router history={history}>
+				<div className='container-fluid'>
+					<div className='row'>
+						<Switch>
+							<Route
+								exact
+								path={process.env.PUBLIC_URL + '/'}
+								component={() => <Homepage data={data} />}
+							/>
+							<Route
+								path={process.env.PUBLIC_URL + '/experience/:title'}
+								component={() => <ExperiencePage data={data} />}
+							/>
+						</Switch>
+					</div>
 				</div>
-			</div>
-		</Router>
+			</Router>
+		</SimpleReactLightbox>
 	);
 }
 

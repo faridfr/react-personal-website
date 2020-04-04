@@ -38,7 +38,7 @@
 				{ "name": "PHP Fundamental", "degree": "senior" },
 				{ "name": "Relational Database", "degree": "senior" },
 				{ "name": "Laravel", "degree": "senior" },
-				{ "name": "Node js", "degree": "junior" }
+				{ "name": "Node.js", "degree": "junior" }
 			]
 		},
 		{
@@ -48,10 +48,10 @@
 				"percent": "60"
 			},
 			"skills": [
-				{ "name": "HTML , CSS , Javascript", "degree": "senior" },
-				{ "name": "React Js", "degree": "intermediate" },
+				{ "name": "HTML, CSS, Javascript", "degree": "senior" },
+				{ "name": "React.js", "degree": "intermediate" },
 				{ "name": "React Native", "degree": "junior" },
-				{ "name": "Vue Js", "degree": "intermediate" }
+				{ "name": "Vue.js", "degree": "intermediate" }
 			]
 		},
 		{
@@ -93,8 +93,38 @@
 			"logo": "img/logos/farazin-color.png",
 			"title": "CTO - Farazin",
 			"time": "Aug 2018 - Present",
-			"description": "Leader of development team , schema designer and Back-End developer Our target is making automate all actions in factory , such asadministrative affairs, production planning, accounting andwarehousing, production line monitoring .",
-			"status": "online"
+			"description": "Leader of development team , schema designer and Back-End developer Our target is making automate all actions in factory , such asadministrative affairs, production planning, accounting and warehousing, production line monitoring .",
+			"status": "online",
+			"images": [
+				{
+					"link": "img/experiences/farazin/1.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/farazin/4.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/farazin/2.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/farazin/3.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/farazin/5.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/farazin/6.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/farazin/7.jpg",
+					"title": "test"
+				}
+			]
 		},
 		{
 			"logo": "img/logos/kelaasor-color.png",
@@ -108,21 +138,79 @@
 			"title": "Founder - Darchin",
 			"time": "Apr 2018 - Sep 2019",
 			"description": "Darchin was an API based online food ordering system that developed with Laravel and Vuejs . In addition to managing the team , i was Back-End developer ( Laravel ) and Schema Designer . I developed API based system with a complete document for other developers .",
-			"status": "away"
+			"status": "away",
+			"images": [
+				{
+					"link": "img/experiences/darchin/1.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/darchin/2.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/darchin/3.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/darchin/4.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/darchin/5.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/darchin/6.jpg",
+					"title": "test"
+				}
+			]
 		},
 		{
 			"logo": "img/logos/tinab-color.png",
 			"title": "CEO - Tinab Company",
 			"time": "Jul 2017 - Sep 2019",
 			"description": "Tinab is a startup company that located in science and technology park . I was CEO and Chairman of the Board and we developed \"Darchin\" -online food ordering system- & \"Teroject\" -Online team and project management system- and \"Farazin DSP system\" -manage production line and warehousing in Farazin company in Tehran- in this company .",
-			"status": "hidden"
+			"status": "hidden",
+			"images": [
+				{
+					"link": "img/experiences/tinab/4.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/tinab/1.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/tinab/2.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/tinab/3.jpg",
+					"title": "test"
+				}
+			]
 		},
 		{
 			"logo": "img/logos/teroject-color.png",
 			"title": "Founder - Teroject",
 			"time": "Apr 2016 - Sep 2019",
 			"description": "Teroject is a huge platform to manage business and control teams , projects and customers. ( the word of teroject comes from team and project )",
-			"status": "away"
+			"status": "away",
+			"images": [
+				{
+					"link": "img/experiences/teroject/1.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/teroject/2.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/teroject/3.jpg",
+					"title": "test"
+				}
+			]
 		},
 		{
 			"logo": "img/logos/kelaasor-color.png",
@@ -136,7 +224,29 @@
 			"title": "Founder - Webran",
 			"time": "Jan 2015 - Dec 2015",
 			"description": "Webran is a Social Network for Students & Employee of Shahrood University .",
-			"status": "offline"
+			"status": "offline",
+			"images": [
+				{
+					"link": "img/experiences/webran/1.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/webran/2.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/webran/3.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/webran/4.jpg",
+					"title": "test"
+				},
+				{
+					"link": "img/experiences/webran/5.jpg",
+					"title": "test"
+				}
+			]
 		}
 	],
 	"educations": [

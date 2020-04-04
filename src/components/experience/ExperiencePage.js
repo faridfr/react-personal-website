@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Navigation from './Navigation';
 import Header from './Header';
 import Divider from '../layout/Divider';
+import Slider from './Slider';
 
 const ExperiencePage = (props) => {
 	const { experiences, settings } = props.data;
@@ -27,8 +28,12 @@ const ExperiencePage = (props) => {
 				.map((experience) => (
 					<Container>
 						<Navigation experience={experience} />
-						<Divider size='large' />
+						<Divider size='xlarge' />
 						<Header experience={experience} />
+						<Divider size='large' />
+						{experience.images !== undefined ? (
+							<Slider experience={experience} />
+						) : null}
 					</Container>
 				))}
 		</Fragment>
