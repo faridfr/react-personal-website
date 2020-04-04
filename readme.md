@@ -1,6 +1,6 @@
-# React simple personal website
+# React.js personal website for developers
 
-## FaridFr.Github.io/react-personal-website
+## Demo : FaridFr.Github.io/react-personal-website
 
 - Clone the project
 - Change `src/config.json`

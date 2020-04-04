@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styled from 'styled-components';
 import $ from 'jquery';
 import '../../js/jquery.toast.js';
@@ -50,13 +50,23 @@ const Images = (props) => {
 	};
 
 	return (
-		<MypicDiv
-			className='col-lg-6 d-none d-lg-block'
-			onClick={clickOnMyPic}
-			id='mypicDiv'
-		>
-			<div id='overlay'></div>
-		</MypicDiv>
+		<Fragment>
+			{props.images.map((image) => (
+				<img
+					src={process.env.PUBLIC_URL + image.background_image}
+					style={{ display: 'none' }}
+					alt='hidden'
+				></img>
+			))}
+
+			<MypicDiv
+				className='col-lg-6 d-none d-lg-block'
+				onClick={clickOnMyPic}
+				id='mypicDiv'
+			>
+				<div id='overlay'></div>
+			</MypicDiv>
+		</Fragment>
 	);
 };
 

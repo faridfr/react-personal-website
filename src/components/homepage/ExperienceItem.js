@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ExperienceItem = props => {
+const ExperienceItem = (props) => {
 	const experience = props.experience;
 
 	return (
@@ -17,18 +17,23 @@ const ExperienceItem = props => {
 				></img>
 			</div>
 			<div className='col-lg-6 col-sm-10'>
-				<h4 style={{ fontFamily: 'farid' }}>{experience.title}</h4>
+				<h5 style={{ fontFamily: 'farid' }}>{experience.title}</h5>
 			</div>
 			<div className='col-lg-5 col-sm-12'>
-				<h6 style={{ fontFamily: 'farid', float: 'right' }}>
+				<h6 style={{ fontFamily: 'farid' }} className='showTime'>
 					{experience.time}
 				</h6>
 			</div>
 			<div
 				className='col-lg-11 offset-lg-1'
-				style={{ textAlign: 'justify', fontSize: '0.8rem' }}
+				style={{
+					textAlign: 'justify',
+					fontSize: '0.8rem',
+					fontWeight: 'light',
+					fontFamily: 'Open Sans, sans-serif',
+				}}
 			>
-				<h6>{experience.description}</h6>
+				{experience.description}
 			</div>
 		</div>
 	);

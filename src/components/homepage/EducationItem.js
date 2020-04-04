@@ -1,5 +1,4 @@
-import React, { Fragment } from 'react';
-import Divider from './Divider';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../App.css';
 
@@ -18,7 +17,7 @@ const EducationItem = (props) => {
 				<h4 style={{ fontFamily: 'farid' }}>{education.title}</h4>
 			</div>
 			<div className='col-lg-3 col-sm-12'>
-				<h6 style={{ fontFamily: 'farid', float: 'right' }}>
+				<h6 style={{ fontFamily: 'farid' }} className='showTime'>
 					{education.time}
 				</h6>
 			</div>

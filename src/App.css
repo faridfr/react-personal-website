@@ -52,30 +52,6 @@ body {
 	letter-spacing: 2px;
 }
 
-.backend {
-	background-color: rgb(255, 193, 7, 0.5);
-}
-
-.backendTitle {
-	color: rgb(255, 193, 7, 0.5);
-}
-
-.frontend {
-	background-color: rgb(8, 253, 216, 0.5);
-}
-
-.frontendTitle {
-	color: rgb(8, 253, 216, 0.5);
-}
-
-.cto {
-	background-color: #4ea9d5;
-}
-
-.ctoTitle {
-	color: #4ea9d5;
-}
-
 .progress {
 	height: 1px;
 }
@@ -95,4 +71,16 @@ body {
 	background-color: rgba(0, 0, 0, 0);
 	z-index: 2;
 	cursor: pointer;
+}
+
+.showTime {
+	float: right;
+}
+
+@media (max-width: 992px) {
+	.showTime {
+		float: left;
+		opacity: 0.6;
+		font-size: 0.8rem;
+	}
 }
