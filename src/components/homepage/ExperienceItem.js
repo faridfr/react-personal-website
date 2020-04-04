@@ -5,6 +5,7 @@ import {
 	faDotCircle,
 	faCircleNotch,
 } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 function renderSwitch(status) {
 	switch (status) {
@@ -37,51 +38,55 @@ function renderSwitch(status) {
 
 const ExperienceItem = (props) => {
 	const experience = props.experience;
-	let status = '';
 
 	return (
-		<div
-			className='row'
-			id={experience.title}
-			style={{ margin: '0px', padding: '0px' }}
+		<Link
+			to={process.env.PUBLIC_URL + '/experience/' + experience.title}
+			className='link'
 		>
-			<div className='col-lg-1 d-none d-lg-block'>
-				<img
-					src={`${process.env.PUBLIC_URL}/${experience.logo}`}
-					className='img-fluid company-logo'
-					alt={experience.title}
-				></img>
-			</div>
-			<div className='col-lg-6 col-sm-10'>
-				<h5 style={{ fontFamily: 'farid' }}>{experience.title}</h5>
-			</div>
-			<div className='col-lg-5 col-sm-12'>
-				<h6 style={{ fontFamily: 'farid' }} className='showTime'>
-					{experience.time}
-				</h6>
-			</div>
 			<div
-				className='col-lg-11 offset-lg-1'
-				style={{
-					textAlign: 'justify',
-					fontSize: '0.8rem',
-					fontWeight: 'light',
-					fontFamily: 'Open Sans, sans-serif',
-				}}
+				className='row'
+				id={experience.title}
+				style={{ margin: '0px', padding: '0px' }}
 			>
-				{experience.description}
+				<div className='col-lg-1 d-none d-lg-block'>
+					<img
+						src={`${process.env.PUBLIC_URL}/${experience.logo}`}
+						className='img-fluid company-logo'
+						alt={experience.title}
+					></img>
+				</div>
+				<div className='col-lg-6 col-sm-10'>
+					<h5 style={{ fontFamily: 'farid' }}>{experience.title}</h5>
+				</div>
+				<div className='col-lg-5 col-sm-12'>
+					<h6 style={{ fontFamily: 'farid' }} className='showTime'>
+						{experience.time}
+					</h6>
+				</div>
+				<div
+					className='col-lg-11 offset-lg-1'
+					style={{
+						textAlign: 'justify',
+						fontSize: '0.8rem',
+						fontWeight: 'light',
+						fontFamily: 'Open Sans, sans-serif',
+					}}
+				>
+					{experience.description}
+				</div>
+				<div
+					className='col-lg-11 offset-lg-1'
+					style={{
+						marginTop: '10px',
+						fontSize: '0.7rem',
+						opacity: 0.4,
+					}}
+				>
+					{renderSwitch(experience.status)}
+				</div>
 			</div>
-			<div
-				className='col-lg-11 offset-lg-1'
-				style={{
-					marginTop: '10px',
-					fontSize: '0.7rem',
-					opacity: 0.4,
-				}}
-			>
-				{renderSwitch(experience.status)}
-			</div>
-		</div>
+		</Link>
 	);
 };
 
