@@ -17,17 +17,21 @@ function App() {
 	const data = require('./config.json');
 	return (
 		<Router history={history}>
-			<Switch>
-				<Route
-					exact
-					path={process.env.PUBLIC_URL + '/'}
-					component={() => <Homepage data={data} />}
-				/>
-				<Route
-					path={process.env.PUBLIC_URL + '/experience/:title'}
-					component={() => <ExperiencePage data={data} />}
-				/>
-			</Switch>
+			<div className='container-fluid'>
+				<div className='row'>
+					<Switch>
+						<Route
+							exact
+							path={process.env.PUBLIC_URL + '/'}
+							component={() => <Homepage data={data} />}
+						/>
+						<Route
+							path={process.env.PUBLIC_URL + '/experience/:title'}
+							component={() => <ExperiencePage data={data} />}
+						/>
+					</Switch>
+				</div>
+			</div>
 		</Router>
 	);
 }

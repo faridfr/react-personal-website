@@ -20,7 +20,7 @@ const Info = (props) => {
 		settings,
 	} = props.data;
 
-	const InfoContainer = styled.div`
+	const Container = styled.div`
 		height: 100vh;
 		overflow-y: scroll;
 		background-color: ${settings.backgroundColor};
@@ -30,7 +30,7 @@ const Info = (props) => {
 	`;
 
 	return (
-		<InfoContainer className='col-lg-6 col-sm-12'>
+		<Container className='col-lg-6 col-sm-12'>
 			<Intro info={info}></Intro>
 			<Divider size='large'></Divider>
 			<About about={info.about}></About>
@@ -42,7 +42,7 @@ const Info = (props) => {
 			<Educations educations={educations}></Educations>
 			<Divider size='large'></Divider>
 			<Contact contact={contact}></Contact>
-		</InfoContainer>
+		</Container>
 	);
 };
 
