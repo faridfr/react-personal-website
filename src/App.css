@@ -73,6 +73,15 @@ body {
 	cursor: pointer;
 }
 
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+.link:hover {
+	opacity: 0.6;
+}
+
 .showTime {
 	float: right;
 }

@@ -1,7 +1,43 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+	faCircle,
+	faDotCircle,
+	faCircleNotch,
+} from '@fortawesome/free-solid-svg-icons';
+
+function renderSwitch(status) {
+	switch (status) {
+		case 'online':
+			return (
+				<Fragment>
+					<FontAwesomeIcon icon={faCircle} /> Online
+				</Fragment>
+			);
+
+		case 'away':
+			return (
+				<Fragment>
+					<FontAwesomeIcon icon={faDotCircle} /> Code + Memories
+				</Fragment>
+			);
+
+		case 'offline':
+			return (
+				<Fragment>
+					<FontAwesomeIcon icon={faCircleNotch} /> Just Memories
+				</Fragment>
+			);
+
+		case 'hidden':
+		default:
+			return '';
+	}
+}
 
 const ExperienceItem = (props) => {
 	const experience = props.experience;
+	let status = '';
 
 	return (
 		<div
@@ -34,6 +70,16 @@ const ExperienceItem = (props) => {
 				}}
 			>
 				{experience.description}
+			</div>
+			<div
+				className='col-lg-11 offset-lg-1'
+				style={{
+					marginTop: '10px',
+					fontSize: '0.7rem',
+					opacity: 0.4,
+				}}
+			>
+				{renderSwitch(experience.status)}
 			</div>
 		</div>
 	);
