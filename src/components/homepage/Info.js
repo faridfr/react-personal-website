@@ -8,9 +8,17 @@ import Contact from './Contact';
 import About from './About';
 import Intro from './Intro';
 import Experiences from './Experiences';
+import Educations from './Educations';
 
-const Info = props => {
-	const { info, skills, experiences, contact, settings } = props.data;
+const Info = (props) => {
+	const {
+		info,
+		skills,
+		educations,
+		experiences,
+		contact,
+		settings,
+	} = props.data;
 
 	const InfoContainer = styled.div`
 		height: 100vh;
@@ -30,6 +38,8 @@ const Info = props => {
 			<Skills skills={skills}></Skills>
 			<Divider size='large'></Divider>
 			<Experiences experiences={experiences}></Experiences>
+			<Divider size='large'></Divider>
+			<Educations educations={educations}></Educations>
 			<Divider size='large'></Divider>
 			<Contact contact={contact}></Contact>
 		</InfoContainer>

@@ -43,7 +43,8 @@ const Images = (props) => {
 		currentPic = rand;
 
 		$('#mypicDiv').css({
-			'background-image': 'url("' + myPics[rand].background_image + '")',
+			'background-image':
+				'url("' + process.env.PUBLIC_URL + myPics[rand].background_image + '")',
 			'background-position': myPics[rand].background_position,
 		});
 	};
