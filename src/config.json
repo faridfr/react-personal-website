@@ -195,15 +195,15 @@
 			"status": "away",
 			"images": [
 				{
-					"link": "img/experiences/teroject/1.jpg",
+					"link": "img/experiences/teroject/1.JPG",
+					"title": "test"
+				},
+				{JPG
+					"link": "img/experiences/teroject/2.JPG",
 					"title": "test"
 				},
 				{
-					"link": "img/experiences/teroject/2.jpg",
-					"title": "test"
-				},
-				{
-					"link": "img/experiences/teroject/3.jpg",
+					"link": "img/experiences/teroject/3.JPG",
 					"title": "test"
 				}
 			]
