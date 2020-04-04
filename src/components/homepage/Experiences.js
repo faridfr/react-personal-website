@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import ExperienceItem from './ExperienceItem';
-import Divider from './Divider';
+import Divider from '../layout/Divider';
 
 const Experience = (props) => {
 	const experiences = props.experiences;

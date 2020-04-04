@@ -54,6 +54,7 @@ const ExperienceItem = (props) => {
 						src={`${process.env.PUBLIC_URL}/${experience.logo}`}
 						className='img-fluid company-logo'
 						alt={experience.title}
+						style={{ borderRadius: '5px' }}
 					></img>
 				</div>
 				<div className='col-lg-6 col-sm-10'>

@@ -1,6 +1,9 @@
 import React, { Fragment } from 'react';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
+import Navigation from './Navigation';
+import Header from './Header';
+import Divider from '../layout/Divider';
 
 const ExperiencePage = (props) => {
 	const { experiences, settings } = props.data;
@@ -12,6 +15,7 @@ const ExperiencePage = (props) => {
 		position: relative;
 		color: ${settings.textColor};
 		padding: ${settings.padding}px;
+		width: 100%;
 	`;
 
 	let { title } = useParams();
@@ -21,11 +25,11 @@ const ExperiencePage = (props) => {
 			{experiences
 				.filter((e) => e.title === title)
 				.map((experience) => (
-					<Fragment>
-						<Container>
-							salam {title} <p>{experience.description}</p>
-						</Container>
-					</Fragment>
+					<Container>
+						<Navigation experience={experience} />
+						<Divider size='large' />
+						<Header experience={experience} />
+					</Container>
 				))}
 		</Fragment>
 	);

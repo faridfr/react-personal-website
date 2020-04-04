@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../App.css';
 import Skills from './Skills';
-import Divider from './Divider';
+import Divider from '../layout/Divider';
 import Contact from './Contact';
 import About from './About';
 import Intro from './Intro';
@@ -31,17 +31,17 @@ const Info = (props) => {
 
 	return (
 		<Container className='col-lg-6 col-sm-12'>
-			<Intro info={info}></Intro>
-			<Divider size='large'></Divider>
-			<About about={info.about}></About>
-			<Divider size='large'></Divider>
-			<Skills skills={skills}></Skills>
-			<Divider size='large'></Divider>
-			<Experiences experiences={experiences}></Experiences>
-			<Divider size='large'></Divider>
-			<Educations educations={educations}></Educations>
-			<Divider size='large'></Divider>
-			<Contact contact={contact}></Contact>
+			<Intro info={info} />
+			<Divider size='large' />
+			<About about={info.about} />
+			<Divider size='large' />
+			<Skills skills={skills} />
+			<Divider size='large' />
+			<Experiences experiences={experiences} />
+			<Divider size='large' />
+			<Educations educations={educations} />
+			<Divider size='large' />
+			<Contact contact={contact} />
 		</Container>
 	);
 };
