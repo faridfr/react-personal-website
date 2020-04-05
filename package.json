@@ -16,6 +16,7 @@
 		"jquery": "^3.4.1",
 		"node-sass": "^4.13.1",
 		"react": "^16.13.1",
+		"react-bootstrap": "^1.0.0",
 		"react-dom": "^16.13.1",
 		"react-items-carousel": "^2.8.0",
 		"react-router-dom": "^5.1.2",

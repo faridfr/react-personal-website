@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 import ItemsCarousel from 'react-items-carousel';
 // import { SRLWrapper } from 'simple-react-lightbox';
+import { OverlayTrigger, Button, Tooltip } from 'react-bootstrap';
 
 const Navigation = (props) => {
 	const { experience } = props;
@@ -15,7 +16,7 @@ const Navigation = (props) => {
 				{/* startslider */}
 				<div style={{ padding: 0, maxWidth: '100%', margin: '0' }}>
 					<ItemsCarousel
-						infiniteLoop={true}
+						infiniteLoop={false}
 						gutter={12}
 						activePosition={'center'}
 						chevronWidth={60}
@@ -34,24 +35,20 @@ const Navigation = (props) => {
 						outsideChevron={false}
 					>
 						{experience.images.map((_, i) => (
-							<div
-								style={{
-									height: 250,
-									backgroundImage: `url(${process.env.PUBLIC_URL}/${experience.images[i].link})`,
-									backgroundPosition: 'center',
-									backgroundSize: 'cover',
-								}}
+							<OverlayTrigger
+								placement='top'
+								overlay={<Tooltip>{experience.images[i].title}</Tooltip>}
 							>
-								{/* <SRLWrapper>
-									<img
-										style={{ display: 'none' }}
-										alt={experience.images[i].title}
-										src={
-											process.env.PUBLIC_URL + '/' + experience.images[i].link
-										}
-									/>
-								</SRLWrapper> */}
-							</div>
+								<div
+									style={{
+										borderRadius: '5px',
+										height: 250,
+										backgroundImage: `url(${process.env.PUBLIC_URL}/${experience.images[i].link})`,
+										backgroundPosition: 'center',
+										backgroundSize: 'cover',
+									}}
+								></div>
+							</OverlayTrigger>
 						))}
 					</ItemsCarousel>
 				</div>
