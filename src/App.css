@@ -92,6 +92,10 @@ body {
 	float: right;
 }
 
+td {
+	border: none !important;
+}
+
 @media (max-width: 992px) {
 	.showTime {
 		float: left;

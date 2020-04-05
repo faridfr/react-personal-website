@@ -15,7 +15,7 @@ const Navigation = (props) => {
 						style={{ marginRight: '15px' }}
 					/>
 				</Link>
-				<span>{experience.title}</span>
+				{/* <span>{experience.title}</span> */}
 				<span className='d-none d-lg-block' style={{ float: 'right' }}>
 					{experience.time}
 				</span>

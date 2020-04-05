@@ -102,7 +102,11 @@
 				},
 				{
 					"link": "img/experiences/farazin/4.jpg",
-					"title": "My Desk"
+					"title": "My workspace"
+				},
+				{
+					"link": "img/experiences/farazin/5.jpg",
+					"title": "Engineering Team"
 				},
 				{
 					"link": "img/experiences/farazin/2.jpg",
@@ -111,10 +115,6 @@
 				{
 					"link": "img/experiences/farazin/3.jpg",
 					"title": "Farazin Company"
-				},
-				{
-					"link": "img/experiences/farazin/5.jpg",
-					"title": "Engineering Team"
 				},
 				{
 					"link": "img/experiences/farazin/6.jpg",
@@ -128,14 +128,67 @@
 					"link": "img/experiences/farazin/8.jpg",
 					"title": "Memories of raspberry pi"
 				}
-			]
+			],
+			"details": {
+				"members": "+ 100",
+				"type": "Contract - Full Time",
+				"period": "+ 2 years",
+				"tecs": ["PHP", "Laravel", "Redis", "Vue.js"],
+				"partners": [
+					{
+						"name": "Morteza Soltan Mohammadi",
+						"jobTitle": "CEO",
+						"picture": "img/experiences/farazin/partners/mohammadi.jpg"
+					},
+					{
+						"name": "Amirhosein Mohammadi",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/farazin/partners/amirhosein.jpg"
+					},
+					{
+						"name": "Hossein Askari",
+						"jobTitle": "Back-End Developer",
+						"picture": "img/experiences/farazin/partners/askari.png"
+					},
+					{
+						"name": "Ali Soleymani",
+						"jobTitle": "Android Developer",
+						"picture": "img/experiences/farazin/partners/soleymani.jpg"
+					},
+					{
+						"name": "Narges Esmaeili",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/farazin/partners/esmaeili.jpg"
+					}
+				],
+				"achievements": "Improvement in Laravel, Large scales softwares, Team managements"
+			}
 		},
 		{
 			"logo": "img/logos/kelaasor-color.png",
 			"title": "CTO - Kelaasor",
 			"time": "Sep 2019 - Apr 2020",
 			"description": "Kelaasor.com is a platform to buy and sell academic contents like articles and leaflets . I was the project's CTO and we developed that with Laravel . Speed, security and SEO were the most important features of first version , and I'm glad we were able to release web application before deadline .",
-			"status": "online"
+			"status": "online",
+			"details": {
+				"members": "4",
+				"type": "Contract - Part Time",
+				"period": "8 month",
+				"tecs": ["PHP", "Laravel"],
+				"partners": [
+					{
+						"name": "Hamed Abedini",
+						"jobTitle": "CEO & Founder",
+						"picture": "img/experiences/kelaasor/partners/hamed.jfif"
+					},
+					{
+						"name": "Negar Aant",
+						"jobTitle": "Digital Marketing Manager",
+						"picture": "img/experiences/kelaasor/partners/aant.jfif"
+					}
+				],
+				"achievements": "Improvement in Business Modeling, Startup challenges"
+			}
 		},
 		{
 			"logo": "img/logos/darchin-color.png",
@@ -176,7 +229,41 @@
 					"link": "img/experiences/darchin/8.jpg",
 					"title": "Our Analysis Team"
 				}
-			]
+			],
+			"details": {
+				"members": "8",
+				"type": "Self Employed - Full Time",
+				"period": "18 month",
+				"tecs": ["PHP", "Laravel", "Vue.js"],
+				"partners": [
+					{
+						"name": "Hossein Askari",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/darchin/partners/askari.png"
+					},
+					{
+						"name": "Ali Soleymani",
+						"jobTitle": "Android Developer",
+						"picture": "img/experiences/darchin/partners/soleymani.jpg"
+					},
+					{
+						"name": "Emad Abdoshahi",
+						"jobTitle": "Photographer",
+						"picture": "img/experiences/darchin/partners/emad.jpg"
+					},
+					{
+						"name": "Mohsen Ameri",
+						"jobTitle": "Graphic Designer",
+						"picture": "img/experiences/darchin/partners/mohsen.jpg"
+					},
+					{
+						"name": "Kimia Mahmoodi",
+						"jobTitle": "Digital Marketing Member",
+						"picture": "img/experiences/darchin/partners/kimia.jpg"
+					}
+				],
+				"achievements": "Improvement in Laravel, Team Management, Business Modeling, Startup challenges"
+			}
 		},
 		{
 			"logo": "img/logos/tinab-color.png",
@@ -219,12 +306,12 @@
 			"status": "away",
 			"images": [
 				{
-					"link": "img/experiences/teroject/1.JPG",
-					"title": ""
-				},
-				{
 					"link": "img/experiences/teroject/2.JPG",
 					"title": "Our first meeting about Teroject platform"
+				},
+				{
+					"link": "img/experiences/teroject/1.JPG",
+					"title": ""
 				},
 				{
 					"link": "img/experiences/teroject/3.JPG",
@@ -232,10 +319,6 @@
 				},
 				{
 					"link": "img/experiences/teroject/4.jpg",
-					"title": ""
-				},
-				{
-					"link": "img/experiences/teroject/5.jpg",
 					"title": ""
 				}
 			]

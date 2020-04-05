@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 import ItemsCarousel from 'react-items-carousel';
 // import { SRLWrapper } from 'simple-react-lightbox';
-import { OverlayTrigger, Button, Tooltip } from 'react-bootstrap';
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const Navigation = (props) => {
 	const { experience } = props;

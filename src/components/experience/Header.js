@@ -40,7 +40,22 @@ const Navigation = (props) => {
 	return (
 		<div className='row'>
 			<div className='col-lg-12'>
+				{/* for mobile */}
 				<img
+					className='d-block d-sm-block d-lg-none'
+					src={`${process.env.PUBLIC_URL}/${experience.logo}`}
+					height='45'
+					alt={experience.title}
+					style={{
+						marginRight: '15px',
+						marginTop: '-40px',
+						marginBottom: '20px',
+						borderRadius: '10px',
+					}}
+				/>
+				{/* for laptop */}
+				<img
+					className='d-none d-lg-inline-block'
 					src={`${process.env.PUBLIC_URL}/${experience.logo}`}
 					height='65'
 					alt={experience.title}
@@ -49,8 +64,20 @@ const Navigation = (props) => {
 						marginTop: '-40px',
 						borderRadius: '15px',
 					}}
-				></img>
-				<h1 style={{ display: 'inline', fontSize: '4rem' }}>
+				/>
+				{/* for mobile */}
+				<h1
+					className='d-block d-sm-block d-lg-none'
+					src={`${process.env.PUBLIC_URL}/${experience.logo}`}
+					style={{ display: 'inline', fontSize: '2rem' }}
+				>
+					{experience.title}
+				</h1>
+				{/* for laptop */}
+				<h1
+					className='d-none d-lg-inline-block'
+					style={{ display: 'inline', fontSize: '4rem' }}
+				>
 					{experience.title}
 				</h1>
 			</div>

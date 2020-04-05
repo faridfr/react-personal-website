@@ -5,6 +5,7 @@ import Navigation from './Navigation';
 import Header from './Header';
 import Divider from '../layout/Divider';
 import Slider from './Slider';
+import DetailsTable from './DetailsTable';
 
 const ExperiencePage = (props) => {
 	const { experiences, settings } = props.data;
@@ -32,8 +33,12 @@ const ExperiencePage = (props) => {
 						<Header experience={experience} />
 						<Divider size='large' />
 						{experience.images !== undefined ? (
-							<Slider experience={experience} />
+							<Fragment>
+								<Slider experience={experience} />
+								<Divider size='medium' />
+							</Fragment>
 						) : null}
+						<DetailsTable experience={experience}></DetailsTable>
 					</Container>
 				))}
 		</Fragment>
