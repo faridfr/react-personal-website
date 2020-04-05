@@ -20,10 +20,6 @@
 			{
 				"background_image": "/img/3.jpg",
 				"background_position": "left"
-			},
-			{
-				"background_image": "/img/4.jpg",
-				"background_position": "right"
 			}
 		]
 	},
