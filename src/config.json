@@ -292,7 +292,41 @@
 					"link": "img/experiences/tinab/6.jpg",
 					"title": "co-founder birthday"
 				}
-			]
+			],
+			"details": {
+				"members": "2",
+				"type": "Self Employed - Full Time",
+				"period": "42 month",
+				"tecs": ["Management"],
+				"partners": [
+					{
+						"name": "Ali Soleymani",
+						"jobTitle": "COO - Android Developer",
+						"picture": "img/experiences/tinab/partners/soleymani.jpg"
+					},
+					{
+						"name": "Maryam Ghasemi",
+						"jobTitle": "Assistant",
+						"picture": "img/experiences/tinab/partners/ghasemi.jpg"
+					},
+					{
+						"name": "Shirin Dezyanian",
+						"jobTitle": "Assistant",
+						"picture": "img/experiences/tinab/partners/dezyanian.jpg"
+					},
+					{
+						"name": "Mohammad Mehdi Razazan",
+						"jobTitle": "Mentor",
+						"picture": "img/experiences/tinab/partners/razazan.jpg"
+					},
+					{
+						"name": "Mrs Nadali",
+						"jobTitle": "Accountant",
+						"picture": "img/experiences/tinab/partners/nadali.jpg"
+					}
+				],
+				"achievements": "Company management and its special experiences, such as management techniques, hiring challenges, accounting and tax, science and technology park and ..."
+			}
 		},
 		{
 			"logo": "img/logos/teroject-color.png",
@@ -317,14 +351,42 @@
 					"link": "img/experiences/teroject/4.jpg",
 					"title": ""
 				}
-			]
+			],
+			"details": {
+				"members": "2",
+				"type": "Self Employed - Part Time",
+				"period": "42 month",
+				"tecs": ["PHP"],
+				"partners": [
+					{
+						"name": "Ali Soleymani",
+						"jobTitle": "Co-Founder , Android Developer",
+						"picture": "img/experiences/teroject/partners/soleymani.jpg"
+					}
+				],
+				"achievements": "First Startup, First large scale software, First experience about creating api"
+			}
 		},
 		{
 			"logo": "img/logos/artak-color.png",
 			"title": "Full Stack - Artak",
 			"time": "Nov 2016 – Mar 2017",
 			"description": "Develop a web application for ISP for manage and direct employees towards internet customers with warehousing and accounting and CRM",
-			"status": "online"
+			"status": "online",
+			"details": {
+				"members": "2",
+				"type": "Contract - Part Time",
+				"period": "5 month",
+				"tecs": ["PHP"],
+				"partners": [
+					{
+						"name": "Mohammad Khodaei",
+						"jobTitle": "Web Developer",
+						"picture": "img/experiences/artak/partners/khodaei.jpg"
+					}
+				],
+				"achievements": "Improvements in PHP Programming, Responsibility and support after deadline"
+			}
 		},
 		{
 			"logo": "img/logos/webran-color.png",
@@ -353,7 +415,26 @@
 					"link": "img/experiences/webran/5.jpg",
 					"title": "Fan-Bazaar Exhibition"
 				}
-			]
+			],
+			"details": {
+				"members": "2",
+				"type": "Self Employed - Part Time",
+				"period": "12 month",
+				"tecs": ["PHP"],
+				"partners": [
+					{
+						"name": "Mohammadhosein Amoei",
+						"jobTitle": "Web Developer",
+						"picture": "img/experiences/webran/partners/amoei.jpg"
+					},
+					{
+						"name": "Hoda Mashayekhi",
+						"jobTitle": "Mentor",
+						"picture": "img/experiences/webran/partners/mashayekhi.jpg"
+					}
+				],
+				"achievements": "The first memories and steps to start a business, Public Relations in Business, Start technical PHP Programming"
+			}
 		}
 	],
 	"educations": [

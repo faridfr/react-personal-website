@@ -33,6 +33,9 @@ const Navigation = (props) => {
 						requestToChangeActive={setActiveItemIndex}
 						activeItemIndex={activeItemIndex}
 						outsideChevron={false}
+						placeholderItem={
+							<div style={{ height: 250, background: '#EEE' }} />
+						}
 					>
 						{experience.images.map((_, i) => (
 							<OverlayTrigger
