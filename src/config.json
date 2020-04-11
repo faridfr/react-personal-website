@@ -233,14 +233,14 @@
 				"tecs": ["PHP", "Laravel", "Vue.js"],
 				"partners": [
 					{
+						"name": "Ali Soleymani",
+						"jobTitle": "Co-Founder - Android Developer",
+						"picture": "img/experiences/darchin/partners/soleymani.jpg"
+					},
+					{
 						"name": "Hossein Askari",
 						"jobTitle": "Front-End Developer",
 						"picture": "img/experiences/darchin/partners/askari.png"
-					},
-					{
-						"name": "Ali Soleymani",
-						"jobTitle": "Android Developer",
-						"picture": "img/experiences/darchin/partners/soleymani.jpg"
 					},
 					{
 						"name": "Emad Abdoshahi",
@@ -251,6 +251,11 @@
 						"name": "Mohsen Ameri",
 						"jobTitle": "Graphic Designer",
 						"picture": "img/experiences/darchin/partners/mohsen.jpg"
+					},
+					{
+						"name": "Mobina Montazeri",
+						"jobTitle": "Digital Marketing Supervisor",
+						"picture": "img/experiences/darchin/partners/mobina.jpg"
 					},
 					{
 						"name": "Kimia Mahmoodi",
