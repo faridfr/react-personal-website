@@ -442,6 +442,98 @@
 			}
 		}
 	],
+	"memories": [
+		{
+			"title": "ircolor.ir",
+			"description": "Best color code website in iran , Detect HEX , RGB , HSL code and similar colors with PHP , with api . See Alexa rank please",
+			"link": "http://ircolor.ir",
+			"source": "https://github.com/faridfr/ircolor",
+			"images": [
+				{
+					"link": "img/memories/ircolor-1.png",
+					"title": ""
+				},
+				{
+					"link": "img/memories/ircolor-2.png",
+					"title": ""
+				}
+			]
+		},
+		{
+			"title": "optia.ir",
+			"description": "Optimizing Finite Automata & draw it",
+			"link": "http://optia.ir",
+			"source": "https://github.com/faridfr/Optimizing_Finite_Automata",
+			"images": [
+				{
+					"link": "img/memories/optia-1.png",
+					"title": ""
+				},
+				{
+					"link": "img/memories/optia-2.png",
+					"title": ""
+				}
+			]
+		},
+		{
+			"title": "Developer at Parsua",
+			"description": "Little company in Iran - Shahrood",
+			"images": [
+				{
+					"link": "img/memories/parsua-1.jpg",
+					"title": "Parsua"
+				},
+				{
+					"link": "img/memories/parsua-2.jpg",
+					"title": "Parsua"
+				},
+				{
+					"link": "img/memories/parsua-3.jpg",
+					"title": "Parsua"
+				}
+			]
+		},
+		{
+			"title": "Teaching & Presentations",
+			"description": "",
+			"images": [
+				{
+					"link": "img/memories/teaching-1.jpg",
+					"title": "Web workshop - Shahrood university"
+				},
+				{
+					"link": "img/memories/teaching-2.jpg",
+					"title": "Web workshop - Shahrood university"
+				},
+				{
+					"link": "img/memories/teaching-3.jpg",
+					"title": "Programming TA"
+				},
+				{
+					"link": "img/memories/teaching-4.jpg",
+					"title": "Startup Challenges presentation"
+				}
+			]
+		},
+		{
+			"title": "Collaborate with startups",
+			"description": "",
+			"images": [
+				{
+					"link": "img/memories/hamed-1.jpeg",
+					"title": ""
+				},
+				{
+					"link": "img/memories/razazan-1.jpg",
+					"title": ""
+				},
+				{
+					"link": "img/memories/razazan-2.jpg",
+					"title": ""
+				}
+			]
+		}
+	],
 	"educations": [
 		{
 			"logo": "img/logos/master.png",

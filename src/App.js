@@ -8,6 +8,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { Router, Route, Switch } from 'react-router-dom';
 import ExperiencePage from './components/experience/ExperiencePage';
+import MemoryPage from './components/memory/MemoryPage';
 import { createBrowserHistory } from 'history';
 import SimpleReactLightbox from 'simple-react-lightbox';
 
@@ -30,6 +31,10 @@ function App() {
 							<Route
 								path={process.env.PUBLIC_URL + '/experience/:title'}
 								component={() => <ExperiencePage data={data} />}
+							/>
+							<Route
+								path={process.env.PUBLIC_URL + '/memory/:title'}
+								component={() => <MemoryPage data={data} />}
 							/>
 						</Switch>
 					</div>

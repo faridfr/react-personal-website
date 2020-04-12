@@ -9,6 +9,7 @@ import About from './About';
 import Intro from './Intro';
 import Experiences from './Experiences';
 import Educations from './Educations';
+import Memories from './Memories';
 
 const Info = (props) => {
 	const {
@@ -18,6 +19,7 @@ const Info = (props) => {
 		experiences,
 		contact,
 		settings,
+		memories,
 	} = props.data;
 
 	const Container = styled.div`
@@ -38,6 +40,8 @@ const Info = (props) => {
 			<Skills skills={skills} />
 			<Divider size='large' />
 			<Experiences experiences={experiences} />
+			<Divider size='large' />
+			<Memories memories={memories} />
 			<Divider size='large' />
 			<Educations educations={educations} />
 			<Divider size='large' />
