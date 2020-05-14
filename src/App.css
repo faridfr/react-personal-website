@@ -21,20 +21,32 @@ body {
 	padding-top: 30px;
 }
 
+.experience .link {
+	display: block;
+}
+
 .clear-large {
 	margin: 50px;
+	display: block;
+	width: 100%;
 }
 
 .clear-xlarge {
 	margin: 80px;
+	display: block;
+	width: 100%;
 }
 
 .clear-medium {
 	margin: 30px;
+	display: block;
+	width: 100%;
 }
 
 .clear-small {
 	margin: 10px;
+	display: block;
+	width: 100%;
 }
 
 .title {
@@ -90,6 +102,12 @@ body {
 
 .showTime {
 	float: right;
+}
+
+.experience .showTime {
+	font-size: 0.8rem;
+	opacity: 0.6;
+	float: left;
 }
 
 td {

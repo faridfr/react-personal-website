@@ -89,6 +89,7 @@
 			"logo": "img/logos/farazin-color.png",
 			"title": "CTO - Farazin",
 			"time": "Aug 2018 - Present",
+			"location": "Iran , Tehran",
 			"description": "Leader of development team , schema designer and Back-End developer Our target is making automate all actions in factory , such as administrative affairs, production planning, accounting and warehousing, production line monitoring .",
 			"status": "online",
 			"images": [
@@ -164,6 +165,7 @@
 			"logo": "img/logos/kelaasor-color.png",
 			"title": "CTO - Kelaasor",
 			"time": "Sep 2019 - Apr 2020",
+			"location": "Iran , Tehran",
 			"description": "Kelaasor.com is a platform to buy and sell academic contents like articles and booklets . I was the project's CTO and we developed that with Laravel . Speed, security and SEO were the most important features of first version , and I'm glad we were able to release web application before deadline .",
 			"status": "online",
 			"details": {
@@ -190,6 +192,7 @@
 			"logo": "img/logos/darchin-color.png",
 			"title": "Founder - Darchin",
 			"time": "Apr 2018 - Sep 2019",
+			"location": "Iran , Shahrood",
 			"description": "Darchin was an API based online food ordering system that developed with Laravel and Vuejs . In addition to managing the team , i was Back-End developer ( Laravel ) and Schema Designer . I developed API based system with a complete document for other developers .",
 			"status": "away",
 			"images": [
@@ -270,6 +273,7 @@
 			"logo": "img/logos/tinab-color.png",
 			"title": "CEO - Tinab Company",
 			"time": "Jul 2017 - Sep 2019",
+			"location": "Iran , Shahrood",
 			"description": "Tinab is a startup company that located in science and technology park . I was CEO and Chairman of the Board and we developed \"Darchin\" -online food ordering system- & \"Teroject\" -Online team and project management system- and \"Farazin DSP system\" -manage production line and warehousing in Farazin company in Tehran- in this company .",
 			"status": "hidden",
 			"images": [
@@ -337,6 +341,7 @@
 			"logo": "img/logos/teroject-color.png",
 			"title": "Founder - Teroject",
 			"time": "Apr 2016 - Sep 2019",
+			"location": "Iran , Shahrood",
 			"description": "Teroject is a huge platform to manage business and control teams , projects and customers. ( the word of teroject comes from team and project )",
 			"status": "away",
 			"images": [
@@ -375,7 +380,8 @@
 		{
 			"logo": "img/logos/artak-color.png",
 			"title": "Full Stack - Artak",
-			"time": "Nov 2016 – Mar 2017",
+			"time": "Nov 2016 - Mar 2017",
+			"location": "Iran , Shiraz",
 			"description": "Develop a web application for ISP for manage and direct employees towards internet customers with warehousing and accounting and CRM",
 			"status": "online",
 			"details": {
@@ -397,6 +403,7 @@
 			"logo": "img/logos/webran-color.png",
 			"title": "Founder - Webran",
 			"time": "Jan 2015 - Dec 2015",
+			"location": "Iran , Shahrood",
 			"description": "Webran is a Social Network for Students & Employee of Shahrood University .",
 			"status": "offline",
 			"images": [

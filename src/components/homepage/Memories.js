@@ -23,7 +23,7 @@ const Memories = (props) => {
 									fontFamily: 'farid',
 									marginRight: '7px',
 									marginBottom: '7px',
-									fontSize: '1rem',
+									fontSize: '0.9rem',
 								}}
 							>
 								{memory.title}

@@ -55,32 +55,25 @@ const ExperienceItem = (props) => {
 						src={`${process.env.PUBLIC_URL}/${experience.logo}`}
 						className='img-fluid company-logo'
 						alt={experience.title}
-						style={{ borderRadius: '5px' }}
+						style={{ borderRadius: '5px', width: '100%' }}
 					></img>
 				</div>
-				<div className='col-lg-6 col-sm-10'>
+				<div className='col-lg-11 col-sm-12' style={{ width: '100%' }}>
 					<h5 style={{ fontFamily: 'farid' }}>{experience.title}</h5>
 				</div>
-				<div className='col-lg-5 col-sm-12'>
+				<div className='col-sm-11 offset-sm-1'>
 					<h6 style={{ fontFamily: 'farid' }} className='showTime'>
-						{experience.time}
+						<span className='d-none d-lg-inline'>{experience.location} / </span>
+						{experience.time}{' '}
+						<span className='d-none d-lg-inline'>
+							, {experience.details.type}
+						</span>
 					</h6>
 				</div>
 				<div
 					className='col-lg-11 offset-lg-1'
 					style={{
-						textAlign: 'justify',
-						fontSize: '0.8rem',
-						fontWeight: 'light',
-						fontFamily: 'Open Sans, sans-serif',
-					}}
-				>
-					{experience.description}
-				</div>
-				<div
-					className='col-lg-11 offset-lg-1'
-					style={{
-						marginTop: '10px',
+						marginTop: '5px',
 						fontSize: '0.7rem',
 						opacity: 0.4,
 					}}
