@@ -162,6 +162,51 @@
 			}
 		},
 		{
+			"logo": "img/logos/dimension-color.png",
+			"title": "Full Stack Developers - DimensionOrtho",
+			"time": "Apr 2020 - Jul 2020",
+			"location": "USA",
+			"description": "DimensionOrtho is an online platform for automate all process of reception and support a sick in USA hospitals and clinics . This platform is online on Android & IOS & the back-end side is Laravel & Python",
+			"status": "online",
+			"images": [
+				
+			],
+			"details": {
+				"members": "+ 5",
+				"type": "Contract - Part Time",
+				"period": "4 month",
+				"tecs": ["PHP", "Laravel", "Redis", "Python","Digitalocean Droplets"],
+				"partners": [
+					{
+						"name": "Morteza Soltan Mohammadi",
+						"jobTitle": "CEO",
+						"picture": "img/experiences/farazin/partners/mohammadi.jpg"
+					},
+					{
+						"name": "Amirhosein Mohammadi",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/farazin/partners/amirhosein.jpg"
+					},
+					{
+						"name": "Hossein Askari",
+						"jobTitle": "Back-End Developer",
+						"picture": "img/experiences/farazin/partners/askari.png"
+					},
+					{
+						"name": "Ali Soleymani",
+						"jobTitle": "Android Developer",
+						"picture": "img/experiences/farazin/partners/soleymani.jpg"
+					},
+					{
+						"name": "Narges Esmaeili",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/farazin/partners/esmaeili.jpg"
+					}
+				],
+				"achievements": "Run python image processing scripts with Laravel"
+			}
+		},
+		{
 			"logo": "img/logos/kelaasor-color.png",
 			"title": "CTO - Kelaasor",
 			"time": "Sep 2019 - Apr 2020",
