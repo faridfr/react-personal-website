@@ -138,14 +138,19 @@
 						"picture": "img/experiences/farazin/partners/mohammadi.jpg"
 					},
 					{
-						"name": "Amirhosein Mohammadi",
-						"jobTitle": "Front-End Developer",
-						"picture": "img/experiences/farazin/partners/amirhosein.jpg"
+						"name": "Hosein Haqiqian",
+						"jobTitle": "Mobile Developer & IoT Engineer",
+						"picture": "img/experiences/farazin/partners/hosein.jpg"
 					},
 					{
 						"name": "Hossein Askari",
 						"jobTitle": "Back-End Developer",
 						"picture": "img/experiences/farazin/partners/askari.png"
+					},
+					{
+						"name": "Amirhosein Mohammadi",
+						"jobTitle": "UI/UX Designer",
+						"picture": "img/experiences/farazin/partners/amirhosein.jpg"
 					},
 					{
 						"name": "Ali Soleymani",
