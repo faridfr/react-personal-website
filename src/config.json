@@ -148,6 +148,11 @@
 						"picture": "img/experiences/farazin/partners/askari.png"
 					},
 					{
+						"name": "Niaz Estefaei",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/farazin/partners/niaz.jpg"
+					},
+					{
 						"name": "Amirhosein Mohammadi",
 						"jobTitle": "UI/UX Designer",
 						"picture": "img/experiences/farazin/partners/amirhosein.jpg"
@@ -163,7 +168,7 @@
 						"picture": "img/experiences/farazin/partners/esmaeili.jpg"
 					}
 				],
-				"achievements": "Improvement in Laravel, Large scales softwares, Team managements"
+				"achievements": "Improvement in Back-End Specially in Laravel, Large scales softwares, Team managements, IoT Projects"
 			}
 		},
 		{

@@ -86,7 +86,7 @@ const Navigation = (props) => {
 																	}
 																	alt={partner.name}
 																	style={{
-																		width: '60px',
+																		width: '80px',
 																		borderRadius: '50%',
 																		marginBottom: '10px',
 																		display: 'block',
@@ -103,7 +103,7 @@ const Navigation = (props) => {
 													src={process.env.PUBLIC_URL + '/' + partner.picture}
 													alt={partner.name}
 													style={{
-														width: '17px',
+														width: '20px',
 														borderRadius: '50%',
 														marginRight: '10px',
 													}}
