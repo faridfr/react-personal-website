@@ -1,3 +1,5 @@
+![React Personal Website](https://raw.githubusercontent.com/faridfr/react-personal-website/0077e74b1e05103a0073deeb5fb88375ba2a864b/public/img/readme.png)
+
 # React.js personal website for developers
 
 ## Demo : http://FaridFr.ir
