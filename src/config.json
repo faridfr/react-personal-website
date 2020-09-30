@@ -46,7 +46,7 @@
 			"skills": [
 				{ "name": "HTML, CSS, Javascript", "degree": "senior" },
 				{ "name": "React.js", "degree": "intermediate" },
-				{ "name": "Flutter", "degree": "junior" },
+				{ "name": "Flutter", "degree": "intermediate" },
 				{ "name": "Vue.js", "degree": "intermediate" }
 			]
 		},
@@ -100,6 +100,10 @@
 				{
 					"link": "img/experiences/farazin/4.jpg",
 					"title": "My workspace"
+				},
+				{
+					"link": "img/experiences/farazin/9.jpg",
+					"title": "Engineering Team In Corona Time"
 				},
 				{
 					"link": "img/experiences/farazin/5.jpg",
