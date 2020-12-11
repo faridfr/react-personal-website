@@ -151,8 +151,18 @@
 					},
 					{
 						"name": "Hosein Haqiqian",
-						"jobTitle": "Mobile Developer & IoT Engineer",
+						"jobTitle": "IoT Engineer & Mobile Developer",
 						"picture": "img/experiences/farazin/partners/hosein.jpg"
+					},
+					{
+						"name": "Mahdad Ghasemian",
+						"jobTitle": "IoT Engineer & Embedded systems",
+						"picture": "img/experiences/farazin/partners/mahdad.jpg"
+					},
+					{
+						"name": "MohammadReza Asayesh",
+						"jobTitle": "UI/UX Designer",
+						"picture": "img/experiences/farazin/partners/mohammadreza.jpg"
 					},
 					{
 						"name": "Hossein Askari",
@@ -166,17 +176,17 @@
 					},
 					{
 						"name": "Ali Soleymani",
-						"jobTitle": "Android Developer",
+						"jobTitle": "Former Android Developer",
 						"picture": "img/experiences/farazin/partners/soleymani.jpg"
 					},
 					{
 						"name": "Amirhosein Mohammadi",
-						"jobTitle": "UI/UX Designer",
+						"jobTitle": "Former UI/UX Designer",
 						"picture": "img/experiences/farazin/partners/amirhosein.jpg"
 					},
 					{
 						"name": "Narges Esmaeili",
-						"jobTitle": "Front-End Developer",
+						"jobTitle": "Former Front-End Developer",
 						"picture": "img/experiences/farazin/partners/esmaeili.jpg"
 					}
 				],

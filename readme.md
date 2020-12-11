@@ -2,7 +2,7 @@
 
 # React.js personal website for developers
 
-## Demo : http://FaridFr.ir
+## Demo : https://FaridFr.ir
 
 - Clone the project
 - Change `src/config.json`
