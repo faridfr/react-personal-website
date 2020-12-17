@@ -32,7 +32,7 @@ const Info = (props) => {
 	`;
 
 	return (
-		<Container className='col-lg-6 col-sm-12'>
+		<Container className='col-lg-6 col-sm-12 info-div'>
 			<Intro info={info} />
 			<Divider size='large' />
 			<About about={info.about} />

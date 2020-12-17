@@ -102,12 +102,16 @@
 					"title": "Farazin Company"
 				},
 				{
-					"link": "img/experiences/farazin/10.jpeg",
-					"title": "Engineering breakfast meeting"
+					"link": "img/experiences/farazin/11.jpg",
+					"title": "Engineering Team"
 				},
 				{
 					"link": "img/experiences/farazin/9.jpg",
 					"title": "Engineering Team In Corona Time"
+				},
+				{
+					"link": "img/experiences/farazin/10.jpeg",
+					"title": "Engineering breakfast meeting"
 				},
 				{
 					"link": "img/experiences/farazin/4.jpg",
@@ -170,9 +174,14 @@
 						"picture": "img/experiences/farazin/partners/askari.png"
 					},
 					{
+						"name": "Saba Ashrafi",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/farazin/partners/ashrafi.jpeg"
+					}, 
+					{
 						"name": "Niaz Estefaei",
 						"jobTitle": "Front-End Developer",
-						"picture": "img/experiences/farazin/partners/niaz.jpg"
+						"picture": "img/experiences/farazin/partners/estefaei.jpg"
 					},
 					{
 						"name": "Ali Soleymani",

@@ -75,8 +75,8 @@ const Navigation = (props) => {
 											<OverlayTrigger
 												placement='top'
 												overlay={
-													<Tooltip style={{ opacity: '1' }}>
-														<div style={{ padding: '15px' }}>
+													<Tooltip style={{ opacity: '1', width:'350px!important',lineHeight:'1.1' }}>
+														<div style={{ padding: '10px' }}>
 															<center>
 																<img
 																	src={

@@ -20,6 +20,7 @@ function App() {
 	return (
 		<SimpleReactLightbox>
 			<Router history={history}>
+				<div style={{ 'backgroundColor' : data.settings.backgroundColor}}>
 				<div className='container-fluid'>
 					<div className='row'>
 						<Switch>
@@ -38,6 +39,7 @@ function App() {
 							/>
 						</Switch>
 					</div>
+				</div>
 				</div>
 			</Router>
 		</SimpleReactLightbox>

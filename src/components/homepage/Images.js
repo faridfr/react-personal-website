@@ -60,7 +60,7 @@ const Images = (props) => {
 			))}
 
 			<MypicDiv
-				className='col-lg-6 d-none d-lg-block'
+				className='col-lg-6 d-none d-lg-block left-big-image'
 				onClick={clickOnMyPic}
 				id='mypicDiv'
 			>
