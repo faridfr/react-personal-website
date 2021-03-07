@@ -4,15 +4,16 @@ import $ from 'jquery';
 import '../../js/jquery.toast.js';
 
 const MypicDiv = styled.div`
-	background-image: url('${process.env.PUBLIC_URL}/img/1.jpg');
+	background-image: url('${process.env.PUBLIC_URL}/img/5.jpg');
 	background-color: #1d1d1d;
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
 	position: sticky;
-`;
+	`;
 
 const Images = (props) => {
+
 	let clicked = 0;
 	let currentPic = 0;
 	let rand = 0;
@@ -21,6 +22,7 @@ const Images = (props) => {
 	let debugModeSeconds = 3;
 	let debugModeClick = 5;
 	let myPics = props.images;
+
 	const clickOnMyPic = () => {
 		clickRate = (new Date().getTime() - firstTime.getTime()) / 1000;
 		clicked++;

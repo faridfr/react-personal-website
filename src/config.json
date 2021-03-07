@@ -10,6 +10,10 @@
 		"about": "",
 		"images": [
 			{
+				"background_image": "/img/5.jpg",
+				"background_position": "center"
+			},
+			{
 				"background_image": "/img/4.jpg",
 				"background_position": "right top"
 			},
