@@ -16,7 +16,6 @@ const Images = (props) => {
 
 	let clicked = 0;
 	let currentPic = 0;
-	let rand = 0;
 	let clickRate = 0;
 	let firstTime = new Date();
 	let debugModeSeconds = 3;
@@ -38,16 +37,12 @@ const Images = (props) => {
 		changeMyPic();
 	};
 	const changeMyPic = () => {
-		do {
-			rand = Math.floor(Math.random() * myPics.length);
-		} while (currentPic === rand);
-
-		currentPic = rand;
-
+		currentPic = currentPic + 1 > myPics.length-1 ? 0 : currentPic + 1;
+		console.log(currentPic);
 		$('#mypicDiv').css({
 			'background-image':
-				'url("' + process.env.PUBLIC_URL + myPics[rand].background_image + '")',
-			'background-position': myPics[rand].background_position,
+				'url("' + process.env.PUBLIC_URL + myPics[currentPic].background_image + '")',
+			'background-position': myPics[currentPic].background_position,
 		});
 	};
 
