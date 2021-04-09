@@ -106,10 +106,6 @@
 					"title": "Farazin Company"
 				},
 				{
-					"link": "img/experiences/farazin/13.jpg",
-					"title": "Farazin"
-				},
-				{
 					"link": "img/experiences/farazin/12.jpg",
 					"title": "Farazin"
 				},
@@ -120,6 +116,10 @@
 				{
 					"link": "img/experiences/farazin/11.jpg",
 					"title": "Engineering Team"
+				},
+				{
+					"link": "img/experiences/farazin/13.jpg",
+					"title": "Farazin"
 				},
 				{
 					"link": "img/experiences/farazin/10.jpeg",
@@ -176,24 +176,24 @@
 						"picture": "img/experiences/farazin/partners/mahdad.jpg"
 					},
 					{
-						"name": "MohammadReza Asayesh",
-						"jobTitle": "UI/UX Designer",
-						"picture": "img/experiences/farazin/partners/mohammadreza.jpg"
-					},
-					{
 						"name": "Hossein Askari",
 						"jobTitle": "Back-End Developer",
 						"picture": "img/experiences/farazin/partners/askari.png"
 					},
 					{
-						"name": "Saba Ashrafi",
-						"jobTitle": "Front-End Developer",
-						"picture": "img/experiences/farazin/partners/ashrafi.jpeg"
-					}, 
-					{
 						"name": "Niaz Estefaei",
 						"jobTitle": "Front-End Developer",
 						"picture": "img/experiences/farazin/partners/estefaei.jpg"
+					},
+					{
+						"name": "Saba Ashrafi",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/farazin/partners/ashrafi.jpeg"
+					},
+					{
+						"name": "MohammadReza Asayesh",
+						"jobTitle": "Former UI/UX Designer",
+						"picture": "img/experiences/farazin/partners/mohammadreza.jpg"
 					},
 					{
 						"name": "Ali Soleymani",
