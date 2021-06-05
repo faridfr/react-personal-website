@@ -89,6 +89,10 @@ body {
 	cursor: pointer;  */
 }
 
+#mypicDiv:hover{
+	cursor: pointer;
+}
+
 .link {
 	text-decoration: none;
 	color: white;

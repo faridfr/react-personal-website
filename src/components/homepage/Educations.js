@@ -12,8 +12,8 @@ const Education = (props) => {
 			<div className='description' style={{ paddingTop: '30px' }}>
 				{educations.map((education) => (
 					<Fragment>
-						<EducationItem education={education} />
 						<Divider size='large' />
+						<EducationItem education={education} />
 					</Fragment>
 				))}
 			</div>

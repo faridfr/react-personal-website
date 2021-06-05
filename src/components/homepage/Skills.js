@@ -13,7 +13,7 @@ const Skills = (props) => {
 				<div className='row skills'>
 					<div
 						className='col-12'
-						style={{ marginTop: '35px', marginBottom: '15px' }}
+						style={{ marginTop: '35px', marginBottom: '35px' }}
 					>
 						<div
 							className='skillName'

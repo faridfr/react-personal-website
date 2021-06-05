@@ -54,7 +54,6 @@ const Info = (props) => {
 					<Educations educations={educations} />
 				</div>
 			</div>
-
 		</Container>
 	);
 };
