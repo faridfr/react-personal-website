@@ -167,7 +167,7 @@
 					},
 					{
 						"name": "Hosein Haqiqian",
-						"jobTitle": "IoT Engineer & Mobile Developer",
+						"jobTitle": "Mobile Developer",
 						"picture": "img/experiences/farazin/partners/hosein.jpg"
 					},
 					{
@@ -186,34 +186,127 @@
 						"picture": "img/experiences/farazin/partners/estefaei.jpg"
 					},
 					{
+						"name": "Paria Mousavi",
+						"jobTitle": "Software Test Engineer",
+						"picture": "img/experiences/farazin/partners/paria.jpg"
+					},
+					{
 						"name": "Saba Ashrafi",
 						"jobTitle": "Front-End Developer",
 						"picture": "img/experiences/farazin/partners/ashrafi.jpeg"
-					},
-					{
-						"name": "MohammadReza Asayesh",
-						"jobTitle": "Former UI/UX Designer",
-						"picture": "img/experiences/farazin/partners/mohammadreza.jpg"
-					},
-					{
-						"name": "Ali Soleymani",
-						"jobTitle": "Former Android Developer",
-						"picture": "img/experiences/farazin/partners/soleymani.jpg"
-					},
-					{
-						"name": "Amirhosein Mohammadi",
-						"jobTitle": "Former UI/UX Designer",
-						"picture": "img/experiences/farazin/partners/amirhosein.jpg"
-					},
-					{
-						"name": "Narges Esmaeili",
-						"jobTitle": "Former Front-End Developer",
-						"picture": "img/experiences/farazin/partners/esmaeili.jpg"
 					}
 				],
 				"achievements": "Improvement in Back-End Specially in Laravel, Large scales softwares, Team managements, IoT Projects"
 			}
 		},
+		{
+			"logo": "img/logos/tinab-color.png",
+			"title": "CEO - Tinab Company",
+			"time": "Jul 2017 - Sep 2019",
+			"location": "Iran , Shahrood",
+			"description": "Tinab is a startup company that located in science and technology park . I was CEO and Chairman of the Board and we developed \"Darchin\" -online food ordering system- & \"Teroject\" -Online team and project management system- and \"Farazin DSP system\" -manage production line and warehousing in Farazin company in Tehran- in this company .",
+			"status": "hidden",
+			"images": [
+				{
+					"link": "img/experiences/tinab/4.jpg",
+					"title": "Innotex Exhibition"
+				},
+				{
+					"link": "img/experiences/darchin/1.jpg",
+					"title": "Opening conference"
+				},
+{
+					"link": "img/experiences/darchin/5.jpg",
+					"title": "With Our Great Marketing Team"
+				},
+				{
+					"link": "img/experiences/teroject/2.JPG",
+					"title": "Our first meeting about Teroject platform"
+				},
+				{
+					"link": "img/experiences/tinab/1.jpg",
+					"title": ""
+				},
+				{
+					"link": "img/experiences/tinab/2.jpg",
+					"title": ""
+				},
+				{
+					"link": "img/experiences/tinab/3.jpg",
+					"title": "Our first small company"
+				},
+				{
+					"link": "img/experiences/tinab/5.jpg",
+					"title": "sience & technology park"
+				},
+				{
+					"link": "img/experiences/tinab/6.jpg",
+					"title": "co-founder birthday"
+				}
+			],
+			"details": {
+				"members": "2",
+				"type": "Self Employed - Full Time",
+				"period": "42 month",
+				"tecs": ["Management"],
+				"partners": [
+					{
+						"name": "Ali Soleymani",
+						"jobTitle": "COO - Android Developer",
+						"picture": "img/experiences/tinab/partners/soleymani.jpg"
+					},
+					{
+						"name": "Maryam Ghasemi",
+						"jobTitle": "Assistant",
+						"picture": "img/experiences/tinab/partners/ghasemi.jpg"
+					},
+					{
+						"name": "Shirin Dezyanian",
+						"jobTitle": "Assistant",
+						"picture": "img/experiences/tinab/partners/dezyanian.jpg"
+					},
+					{
+						"name": "Mohammad Mehdi Razazan",
+						"jobTitle": "Mentor",
+						"picture": "img/experiences/tinab/partners/razazan.jpg"
+					},
+					{
+						"name": "Mrs Nadali",
+						"jobTitle": "Accountant",
+						"picture": "img/experiences/tinab/partners/nadali.jpg"
+					},
+					{
+						"name": "Hossein Askari",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/darchin/partners/askari.png"
+					},
+					{
+						"name": "Emad Abdoshahi",
+						"jobTitle": "Photographer",
+						"picture": "img/experiences/darchin/partners/emad.jpg"
+					},
+					{
+						"name": "Mohsen Ameri",
+						"jobTitle": "Graphic Designer",
+						"picture": "img/experiences/darchin/partners/mohsen.jpg"
+					},
+					{
+						"name": "Mobina Montazeri",
+						"jobTitle": "Digital Marketing Supervisor",
+						"picture": "img/experiences/darchin/partners/mobina.jpg"
+					},
+					{
+						"name": "Kimia Mahmoodi",
+						"jobTitle": "Digital Marketing Member",
+						"picture": "img/experiences/darchin/partners/kimia.jpg"
+					}
+				],
+				"achievements": "Company management and its special experiences, such as management techniques, hiring challenges, accounting and tax, science and technology park and ..."
+			}
+		}
+
+	],
+	"projects": [
 		{
 			"logo": "img/logos/dimension-color.png",
 			"title": "Full Stack Developer - DimensionOrtho",
@@ -347,74 +440,6 @@
 					}
 				],
 				"achievements": "Improvement in Laravel, Team Management, Business Modeling, Startup challenges"
-			}
-		},
-		{
-			"logo": "img/logos/tinab-color.png",
-			"title": "CEO - Tinab Company",
-			"time": "Jul 2017 - Sep 2019",
-			"location": "Iran , Shahrood",
-			"description": "Tinab is a startup company that located in science and technology park . I was CEO and Chairman of the Board and we developed \"Darchin\" -online food ordering system- & \"Teroject\" -Online team and project management system- and \"Farazin DSP system\" -manage production line and warehousing in Farazin company in Tehran- in this company .",
-			"status": "hidden",
-			"images": [
-				{
-					"link": "img/experiences/tinab/4.jpg",
-					"title": "Innotex Exhibition"
-				},
-				{
-					"link": "img/experiences/tinab/1.jpg",
-					"title": ""
-				},
-				{
-					"link": "img/experiences/tinab/2.jpg",
-					"title": ""
-				},
-				{
-					"link": "img/experiences/tinab/3.jpg",
-					"title": "Our first small company"
-				},
-				{
-					"link": "img/experiences/tinab/5.jpg",
-					"title": "sience & technology park"
-				},
-				{
-					"link": "img/experiences/tinab/6.jpg",
-					"title": "co-founder birthday"
-				}
-			],
-			"details": {
-				"members": "2",
-				"type": "Self Employed - Full Time",
-				"period": "42 month",
-				"tecs": ["Management"],
-				"partners": [
-					{
-						"name": "Ali Soleymani",
-						"jobTitle": "COO - Android Developer",
-						"picture": "img/experiences/tinab/partners/soleymani.jpg"
-					},
-					{
-						"name": "Maryam Ghasemi",
-						"jobTitle": "Assistant",
-						"picture": "img/experiences/tinab/partners/ghasemi.jpg"
-					},
-					{
-						"name": "Shirin Dezyanian",
-						"jobTitle": "Assistant",
-						"picture": "img/experiences/tinab/partners/dezyanian.jpg"
-					},
-					{
-						"name": "Mohammad Mehdi Razazan",
-						"jobTitle": "Mentor",
-						"picture": "img/experiences/tinab/partners/razazan.jpg"
-					},
-					{
-						"name": "Mrs Nadali",
-						"jobTitle": "Accountant",
-						"picture": "img/experiences/tinab/partners/nadali.jpg"
-					}
-				],
-				"achievements": "Company management and its special experiences, such as management techniques, hiring challenges, accounting and tax, science and technology park and ..."
 			}
 		},
 		{

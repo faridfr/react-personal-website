@@ -36,6 +36,8 @@ Now, create a remote GitHub repository with your app name and go back initialize
 
 - Now deploy it to GitHub Pages
 just run the following command :
-`npm run deploy`
+```
+npm run deploy
+```
 
 > this command will create a branch named gh-pages this branch host your app, and homepage property you created in package.json file hold your link for a live preview

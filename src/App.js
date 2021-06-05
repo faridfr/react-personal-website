@@ -11,6 +11,7 @@ import ExperiencePage from './components/experience/ExperiencePage';
 import MemoryPage from './components/memory/MemoryPage';
 import { createBrowserHistory } from 'history';
 import SimpleReactLightbox from 'simple-react-lightbox';
+import ProjectPage from './components/project/ProjectPage';
 
 library.add(fab, faCheckSquare, faCoffee);
 const history = createBrowserHistory();
@@ -32,6 +33,10 @@ function App() {
 							<Route
 								path={process.env.PUBLIC_URL + '/experience/:title'}
 								component={() => <ExperiencePage data={data} />}
+							/>
+							<Route
+								path={process.env.PUBLIC_URL + '/projects/:title'}
+								component={() => <ProjectPage data={data} />}
 							/>
 							<Route
 								path={process.env.PUBLIC_URL + '/memory/:title'}

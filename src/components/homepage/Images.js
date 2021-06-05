@@ -8,8 +8,11 @@ const MypicDiv = styled.div`
 	background-color: #1d1d1d;
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
-	position: sticky;
+	width:450px;
+	height:450px;
+	margin-bottom:50px;
+	margin-top:60px;
+	border-radius:15px;
 	`;
 
 const Images = (props) => {
@@ -57,11 +60,11 @@ const Images = (props) => {
 			))}
 
 			<MypicDiv
-				className='col-lg-6 d-none d-lg-block left-big-image'
+				className='d-none d-lg-block left-big-image'
 				onClick={clickOnMyPic}
 				id='mypicDiv'
 			>
-				<div id='overlay'></div>
+				<div id='overlay'></div> 
 			</MypicDiv>
 		</Fragment>
 	);

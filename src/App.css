@@ -76,17 +76,17 @@ body {
 	margin-top: 23px;
 }
 
-#overlay {
-	position: fixed;
+ #overlay {
+	/* position: fixed;
 	width: 100%;
 	height: 100%;
-	top: 0;
+	 top: 0;
 	left: 0;
-	right: 0;
+	right: 0; 
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0);
 	z-index: 2;
-	cursor: pointer;
+	cursor: pointer;  */
 }
 
 .link {
@@ -120,6 +120,16 @@ td {
 		opacity: 0.6;
 		font-size: 0.8rem;
 	}
+
+	#leftDiv {
+		position: static;
+	}
+}
+
+@media (min-width: 992px) {
+	#leftDiv {
+		position: fixed;
+	}
 }
 
 @media (min-width: 1650px) {
@@ -129,6 +139,18 @@ td {
 	
 	.left-big-image{
 		padding:50px!important;
+	}
+}
+
+@media (min-width: 1200px) {
+	#leftDiv { 
+		padding-left:20px;
+	}
+}
+
+@media (min-width: 1400px) {
+	#leftDiv { 
+		padding-left:100px;
 	}
 }
 
