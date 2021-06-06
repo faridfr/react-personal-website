@@ -41,3 +41,5 @@ npm run deploy
 ```
 
 > this command will create a branch named gh-pages this branch host your app, and homepage property you created in package.json file hold your link for a live preview
+
+For enable SPA on github pages , read this : https://github.com/rafgraph/spa-github-pages
