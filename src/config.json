@@ -6,7 +6,7 @@
 	},
 	"info": {
 		"name": "Farid Froozan",
-		"jobTitle": "Full Stack Developer",
+		"jobTitle": "CEO at Novaday",
 		"about": "",
 		"images": [
 			{
@@ -94,9 +94,70 @@
 	],
 	"experiences": [
 		{
+			"logo": "img/logos/novaday.png",
+			"title": "CEO - Novaday",
+			"time": "Jun 2021 - Present",
+			"location": "Iran , Tehran",
+			"description": "CEO at Novaday",
+			"status": "online",
+			"images": [
+			{
+					"link": "img/experiences/coming-soon.jpg",
+					"title": "Novaday Company"
+			},
+			{
+					"link": "img/experiences/coming-soon.jpg",
+					"title": "Novaday Company"
+			},
+			{
+					"link": "img/experiences/coming-soon.jpg",
+					"title": "Novaday Company"
+			}
+			],
+			"details": {
+				"members": "+ 10",
+				"type": "Contract - Full Time",
+				"period": "Newly founded",
+				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter","Kotlin","Elasticsearch"],
+				"partners": [
+					{
+						"name": "Hosein Haqiqian",
+						"jobTitle": "Mobile Developer",
+						"picture": "img/experiences/novaday/partners/hosein.jpg"
+					},
+					{
+						"name": "Mahdad Ghasemian",
+						"jobTitle": "IoT Engineer",
+						"picture": "img/experiences/novaday/partners/mahdad.jpg"
+					},
+					{
+						"name": "Hossein Askari",
+						"jobTitle": "Back-End Developer",
+						"picture": "img/experiences/novaday/partners/askari.png"
+					},
+					{
+						"name": "Niaz Estefaei",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/novaday/partners/estefaei.jpg"
+					},
+					{
+						"name": "Paria Mousavi",
+						"jobTitle": "Software Test Engineer",
+						"picture": "img/experiences/novaday/partners/paria.jpg"
+					},
+					{
+						"name": "Maryam Kazemian",
+						"jobTitle": "HR Manager",
+						"picture": "img/experiences/novaday/partners/maryam.jpg"
+					}
+				],
+				"achievements": ""
+			}
+		},
+		{
 			"logo": "img/logos/farazin-color.png",
 			"title": "CTO - Farazin",
-			"time": "Aug 2018 - Present",
+			"time": "Aug 2018 - May 2021",
 			"location": "Iran , Tehran",
 			"description": "Leader of development team , schema designer and Back-End developer Our target is making automate all actions in factory , such as administrative affairs, production planning, accounting and warehousing, production line monitoring .",
 			"status": "online",
@@ -201,7 +262,7 @@
 		},
 		{
 			"logo": "img/logos/tinab-color.png",
-			"title": "CEO - Tinab Company",
+			"title": "CEO - Tinab",
 			"time": "Jul 2017 - Sep 2019",
 			"location": "Iran , Shahrood",
 			"description": "Tinab is a startup company that located in science and technology park . I was CEO and Chairman of the Board and we developed \"Darchin\" -online food ordering system- & \"Teroject\" -Online team and project management system- and \"Farazin DSP system\" -manage production line and warehousing in Farazin company in Tehran- in this company .",
@@ -245,7 +306,7 @@
 				}
 			],
 			"details": {
-				"members": "2",
+				"members": "10",
 				"type": "Self Employed - Full Time",
 				"period": "42 month",
 				"tecs": ["Management"],
