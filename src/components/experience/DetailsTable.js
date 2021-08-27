@@ -20,7 +20,7 @@ const Navigation = (props) => {
 								color: 'white',
 								fontFamily: '"Open Sans", sans-serif',
 								fontSize: '0.8rem',
-								backgroundColor: '#292929',
+								backgroundColor: '#161b22',
 								borderRadius: '5px',
 								borderCollapse: 'collapse',
 							}}
@@ -49,7 +49,7 @@ const Navigation = (props) => {
 								color: 'white',
 								fontFamily: '"Open Sans", sans-serif',
 								fontSize: '0.8rem',
-								backgroundColor: '#292929',
+								backgroundColor: '#161b22',
 								borderRadius: '5px',
 								borderCollapse: 'collapse',
 							}}

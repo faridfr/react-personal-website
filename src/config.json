@@ -1,7 +1,7 @@
 {
 	"settings": {
 		"textColor": "white",
-		"backgroundColor": "#1d1d1d",
+		"backgroundColor": "#0D1117",
 		"padding": "50"
 	},
 	"info": {
@@ -218,7 +218,7 @@
 			"details": {
 				"members": "+ 100",
 				"type": "Contract - Full Time",
-				"period": "+ 2 years",
+				"period": "3 years",
 				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter"],
 				"partners": [
 					{

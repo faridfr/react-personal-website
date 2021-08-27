@@ -5,7 +5,7 @@ import '../../js/jquery.toast.js';
 
 const MypicDiv = styled.div`
 	background-image: url('${process.env.PUBLIC_URL}/img/5.jpg');
-	background-color: #1d1d1d;
+	background-color: #0D1117;
 	background-size: cover;
 	background-position: center;
 	width:450px;
