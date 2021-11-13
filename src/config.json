@@ -116,15 +116,11 @@
 			],
 			"details": {
 				"members": "+ 10",
-				"type": "Co-Founder",
+				"type": "Co-Founder, Member of the board",
 				"period": "Newly founded",
 				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter","Kotlin","Elasticsearch"],
 				"partners": [
-					{
-						"name": "Hosein Haqiqian",
-						"jobTitle": "Mobile Developer",
-						"picture": "img/experiences/novaday/partners/hosein.jpg"
-					},
+					
 					{
 						"name": "Mahdad Ghasemian",
 						"jobTitle": "IoT Engineer",
@@ -133,12 +129,32 @@
 					{
 						"name": "Hossein Askari",
 						"jobTitle": "Back-End Developer",
-						"picture": "img/experiences/novaday/partners/askari.png"
+						"picture": "img/experiences/novaday/partners/askari.jpg"
+					},
+					{
+						"name": "Shahriyar Bayat",
+						"jobTitle": "Back-End Developer",
+						"picture": "img/experiences/novaday/partners/shahriyar.jpg"
 					},
 					{
 						"name": "Niaz Estefaei",
 						"jobTitle": "Front-End Developer",
 						"picture": "img/experiences/novaday/partners/estefaei.jpg"
+					},
+					{
+						"name": "Shahriar Eshraghi",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/novaday/partners/eshraghi.jpg"
+					},
+					{
+						"name": "Hosein Haqiqian",
+						"jobTitle": "Mobile Developer",
+						"picture": "img/experiences/novaday/partners/hosein.jpg"
+					},
+					{
+						"name": "Paria Bastaani",
+						"jobTitle": "Mobile Developer",
+						"picture": "img/experiences/novaday/partners/parisa.jpg"
 					},
 					{
 						"name": "Paria Mousavi",
@@ -147,8 +163,28 @@
 					},
 					{
 						"name": "Maryam Kazemian",
-						"jobTitle": "HR Manager",
+						"jobTitle": "HR Generalist",
 						"picture": "img/experiences/novaday/partners/maryam.jpg"
+					},
+					{
+						"name": "Anata Kadkhodazadeh",
+						"jobTitle": "Scrum Master",
+						"picture": "img/experiences/novaday/partners/anata.png"
+					},
+					{
+						"name": "Arman Mohammadi",
+						"jobTitle": "Product Designer",
+						"picture": "img/experiences/novaday/partners/arman.jpg"
+					},
+					{
+						"name": "Maral Navid",
+						"jobTitle": "Accounting",
+						"picture": "img/experiences/novaday/partners/maral.jpg"
+					},
+					{
+						"name": "Mona Navid",
+						"jobTitle": "Accounting",
+						"picture": "img/experiences/novaday/partners/mona.jpg"
 					}
 				],
 				"achievements": ""
