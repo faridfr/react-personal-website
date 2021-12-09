@@ -102,16 +102,16 @@
 			"status": "online",
 			"images": [
 			{
-					"link": "img/experiences/coming-soon.jpg",
+					"link": "img/experiences/novaday/3.jpg",
 					"title": "Novaday Company"
 			},
 			{
-					"link": "img/experiences/coming-soon.jpg",
-					"title": "Novaday Company"
+					"link": "img/experiences/novaday/1.jpg",
+					"title": "Counter Strike league"
 			},
 			{
-					"link": "img/experiences/coming-soon.jpg",
-					"title": "Novaday Company"
+					"link": "img/experiences/novaday/2.jpg",
+					"title": "Accountant day in Novaday"
 			}
 			],
 			"details": {
