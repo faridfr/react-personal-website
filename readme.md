@@ -5,6 +5,7 @@
 ## Demo : https://FaridFr.ir
 
 - Clone the project
+- Copy `src/config-sample.json` to `src/config.json`
 - Change `src/config.json`
 - `npm install`
 - `npm start`

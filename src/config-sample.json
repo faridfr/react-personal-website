@@ -1,0 +1,321 @@
+{
+	"settings": {
+		"textColor": "white",
+		"backgroundColor": "#0D1117",
+		"padding": "50"
+	},
+	"info": {
+		"name": "Farid Froozan",
+		"jobTitle": "CEO at Novaday",
+		"about": "",
+		"images": [
+			{
+				"background_image": "/img/5.jpg",
+				"background_position": "center"
+			},
+			{
+				"background_image": "/img/4.jpg",
+				"background_position": "right top"
+			},
+			{
+				"background_image": "/img/1.jpg",
+				"background_position": "center"
+			},
+			{
+				"background_image": "/img/2.jpg",
+				"background_position": "center"
+			},
+			{
+				"background_image": "/img/3.jpg",
+				"background_position": "left"
+			}
+		]
+	},
+	"skills": [
+		{
+			"header": {
+				"name": "server side",
+				"color": "rgb(255, 193, 7, 0.5)",
+				"percent": "90"
+			},
+			"skills": [
+				{ "name": "PHP Fundamental", "degree": "senior" },
+				{ "name": "Relational Database", "degree": "senior" },
+				{ "name": "Laravel", "degree": "senior" },
+				{ "name": "Node.js", "degree": "junior" }
+			]
+		},
+		{
+			"header": {
+				"name": "client side",
+				"color": "rgb(8, 253, 216, 0.5)",
+				"percent": "60"
+			},
+			"skills": [
+				{ "name": "HTML, CSS, Javascript", "degree": "senior" },
+				{ "name": "React.js", "degree": "intermediate" },
+				{ "name": "Flutter", "degree": "intermediate" },
+				{ "name": "Vue.js", "degree": "intermediate" }
+			]
+		},
+		{
+			"header": {
+				"name": "others ...",
+				"color": "#2D4B59",
+				"percent": "70"
+			},
+			"skills": [
+				{
+					"name": "Schema Design",
+					"degree": "senior"
+				},
+				{
+					"name": "Management",
+					"degree": "intermediate"
+				},
+				{
+					"name": "Scrum",
+					"degree": "senior"
+				},
+				{
+					"name": "OKR , KPI Metrics",
+					"degree": "intermediate"
+				},
+				{
+					"name": "UI / UX Design",
+					"degree": "intermediate"
+				},
+				{
+					"name": "Startup Mentoring",
+					"degree": "intermediate"
+				}
+			]
+		}
+	],
+	"experiences": [
+		{
+			"logo": "img/logos/novaday.png",
+			"title": "CEO - Novaday",
+			"time": "Jun 2021 - Present",
+			"location": "Iran , Tehran",
+			"description": "CEO at Novaday",
+			"status": "online",
+			"images": [
+			{
+					"link": "img/experiences/novaday/3.jpg",
+					"title": "Novaday Company"
+			},
+			{
+					"link": "img/experiences/novaday/1.jpg",
+					"title": "Counter Strike league"
+			},
+			{
+					"link": "img/experiences/novaday/2.JPG",
+					"title": "Accountant day in Novaday"
+			},
+			{
+					"link": "img/experiences/novaday/4.jpg",
+					"title": "Programmer day in Novaday"
+			}
+			],
+			"details": {
+				"members": "+ 10",
+				"type": "Co-Founder, Member of the board",
+				"period": "Newly founded",
+				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter","Kotlin","Elasticsearch"],
+				"partners": [
+					
+					{
+						"name": "Mahdad Ghasemian",
+						"jobTitle": "IoT Engineer",
+						"picture": "img/experiences/novaday/partners/mahdad.jpg"
+					},
+					{
+						"name": "Hossein Askari",
+						"jobTitle": "Back-End Developer",
+						"picture": "img/experiences/novaday/partners/askari.jpg"
+					},
+					{
+						"name": "Shahriyar Bayat",
+						"jobTitle": "Back-End Developer",
+						"picture": "img/experiences/novaday/partners/shahriyar.jpg"
+					},
+					{
+						"name": "Niaz Estefaei",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/novaday/partners/estefaei.jpg"
+					},
+					{
+						"name": "Shahriar Eshraghi",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/novaday/partners/eshraghi.jpg"
+					},
+					{
+						"name": "Hosein Haqiqian",
+						"jobTitle": "Mobile Developer",
+						"picture": "img/experiences/novaday/partners/hosein.jpg"
+					},
+					{
+						"name": "Paria Bastaani",
+						"jobTitle": "Mobile Developer",
+						"picture": "img/experiences/novaday/partners/parisa.jpg"
+					},
+					{
+						"name": "Paria Mousavi",
+						"jobTitle": "Software Test Engineer",
+						"picture": "img/experiences/novaday/partners/paria.jpg"
+					},
+					{
+						"name": "Maryam Kazemian",
+						"jobTitle": "HR Generalist",
+						"picture": "img/experiences/novaday/partners/maryam.jpg"
+					},
+					{
+						"name": "Anata Kadkhodazadeh",
+						"jobTitle": "Scrum Master",
+						"picture": "img/experiences/novaday/partners/anata.png"
+					},
+					{
+						"name": "Arman Mohammadi",
+						"jobTitle": "Product Designer",
+						"picture": "img/experiences/novaday/partners/arman.jpg"
+					},
+					{
+						"name": "Maral Navid",
+						"jobTitle": "Accounting",
+						"picture": "img/experiences/novaday/partners/maral.jpg"
+					},
+					{
+						"name": "Mona Navid",
+						"jobTitle": "Accounting",
+						"picture": "img/experiences/novaday/partners/mona.jpg"
+					}
+				],
+				"achievements": ""
+			}
+		}
+	],
+	"projects": [
+		{
+			"logo": "img/logos/darchin-color.png",
+			"title": "Founder - Darchin",
+			"time": "Apr 2018 - Sep 2019",
+			"location": "Iran , Shahrood",
+			"description": "Darchin was an API based online food ordering system that developed with Laravel and Vuejs . In addition to managing the team , i was Back-End developer ( Laravel ) and Schema Designer . I developed API based system with a complete document for other developers .",
+			"status": "away",
+			"images": [
+				{
+					"link": "img/experiences/darchin/1.jpg",
+					"title": "Opening conference"
+				},
+				{
+					"link": "img/experiences/darchin/2.jpg",
+					"title": "Making Promotional Video"
+				},
+				{
+					"link": "img/experiences/darchin/3.jpg",
+					"title": "Promotional Events"
+				},
+				{
+					"link": "img/experiences/darchin/4.jpg",
+					"title": "Making Promotional Video"
+				},
+				{
+					"link": "img/experiences/darchin/5.jpg",
+					"title": "With Our Great Marketing Team"
+				},
+				{
+					"link": "img/experiences/darchin/6.jpg",
+					"title": ""
+				},
+				{
+					"link": "img/experiences/darchin/7.jpg",
+					"title": "First Contract"
+				},
+				{
+					"link": "img/experiences/darchin/8.jpg",
+					"title": "Our Analysis Team"
+				}
+			],
+			"details": {
+				"members": "8",
+				"type": "Self Employed - Full Time",
+				"period": "18 month",
+				"tecs": ["PHP", "Laravel", "Vue.js"],
+				"partners": [
+					{
+						"name": "Ali Soleymani",
+						"jobTitle": "Co-Founder - Android Developer",
+						"picture": "img/experiences/darchin/partners/soleymani.jpg"
+					},
+					{
+						"name": "Hossein Askari",
+						"jobTitle": "Front-End Developer",
+						"picture": "img/experiences/darchin/partners/askari.png"
+					},
+					{
+						"name": "Emad Abdoshahi",
+						"jobTitle": "Photographer",
+						"picture": "img/experiences/darchin/partners/emad.jpg"
+					},
+					{
+						"name": "Mohsen Ameri",
+						"jobTitle": "Graphic Designer",
+						"picture": "img/experiences/darchin/partners/mohsen.jpg"
+					},
+					{
+						"name": "Mobina Montazeri",
+						"jobTitle": "Digital Marketing Supervisor",
+						"picture": "img/experiences/darchin/partners/mobina.jpg"
+					},
+					{
+						"name": "Kimia Mahmoodi",
+						"jobTitle": "Digital Marketing Member",
+						"picture": "img/experiences/darchin/partners/kimia.jpg"
+					}
+				],
+				"achievements": "Improvement in Laravel, Team Management, Business Modeling, Startup challenges"
+			}
+		}
+	],
+	"memories": [
+		{
+			"title": "Developer at Parsua",
+			"description": "Little company in Iran - Shahrood",
+			"images": [
+				{
+					"link": "img/memories/parsua-1.jpg",
+					"title": "Parsua"
+				},
+				{
+					"link": "img/memories/parsua-2.jpg",
+					"title": "Parsua"
+				},
+				{
+					"link": "img/memories/parsua-3.jpg",
+					"title": "Parsua"
+				}
+			]
+		}
+	],
+	"educations": [
+		{
+			"logo": "img/logos/master.png",
+			"title": "Islamic Azad University",
+			"time": "2019 - 2022",
+			"description": "Master's degree - Software Engineering"
+		},
+		{
+			"logo": "img/logos/bachelor.png",
+			"title": "Shahrood University of Technology",
+			"time": "2014 - 2019",
+			"description": "Bachelors - Software Engineering"
+		}
+	],
+	"contact": {
+		"mobile": "+98 936 XXX XXX",
+		"email": "XXX [at] yahoo.com",
+		"github": "faridfr",
+		"linkedin": "in/faridfroozan"
+	}
+}
