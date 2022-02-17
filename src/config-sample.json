@@ -12,22 +12,6 @@
 			{
 				"background_image": "/img/5.jpg",
 				"background_position": "center"
-			},
-			{
-				"background_image": "/img/4.jpg",
-				"background_position": "right top"
-			},
-			{
-				"background_image": "/img/1.jpg",
-				"background_position": "center"
-			},
-			{
-				"background_image": "/img/2.jpg",
-				"background_position": "center"
-			},
-			{
-				"background_image": "/img/3.jpg",
-				"background_position": "left"
 			}
 		]
 	},
@@ -104,18 +88,6 @@
 			{
 					"link": "img/experiences/novaday/3.jpg",
 					"title": "Novaday Company"
-			},
-			{
-					"link": "img/experiences/novaday/1.jpg",
-					"title": "Counter Strike league"
-			},
-			{
-					"link": "img/experiences/novaday/2.JPG",
-					"title": "Accountant day in Novaday"
-			},
-			{
-					"link": "img/experiences/novaday/4.jpg",
-					"title": "Programmer day in Novaday"
 			}
 			],
 			"details": {
@@ -124,71 +96,10 @@
 				"period": "Newly founded",
 				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter","Kotlin","Elasticsearch"],
 				"partners": [
-					
 					{
 						"name": "Mahdad Ghasemian",
 						"jobTitle": "IoT Engineer",
 						"picture": "img/experiences/novaday/partners/mahdad.jpg"
-					},
-					{
-						"name": "Hossein Askari",
-						"jobTitle": "Back-End Developer",
-						"picture": "img/experiences/novaday/partners/askari.jpg"
-					},
-					{
-						"name": "Shahriyar Bayat",
-						"jobTitle": "Back-End Developer",
-						"picture": "img/experiences/novaday/partners/shahriyar.jpg"
-					},
-					{
-						"name": "Niaz Estefaei",
-						"jobTitle": "Front-End Developer",
-						"picture": "img/experiences/novaday/partners/estefaei.jpg"
-					},
-					{
-						"name": "Shahriar Eshraghi",
-						"jobTitle": "Front-End Developer",
-						"picture": "img/experiences/novaday/partners/eshraghi.jpg"
-					},
-					{
-						"name": "Hosein Haqiqian",
-						"jobTitle": "Mobile Developer",
-						"picture": "img/experiences/novaday/partners/hosein.jpg"
-					},
-					{
-						"name": "Paria Bastaani",
-						"jobTitle": "Mobile Developer",
-						"picture": "img/experiences/novaday/partners/parisa.jpg"
-					},
-					{
-						"name": "Paria Mousavi",
-						"jobTitle": "Software Test Engineer",
-						"picture": "img/experiences/novaday/partners/paria.jpg"
-					},
-					{
-						"name": "Maryam Kazemian",
-						"jobTitle": "HR Generalist",
-						"picture": "img/experiences/novaday/partners/maryam.jpg"
-					},
-					{
-						"name": "Anata Kadkhodazadeh",
-						"jobTitle": "Scrum Master",
-						"picture": "img/experiences/novaday/partners/anata.png"
-					},
-					{
-						"name": "Arman Mohammadi",
-						"jobTitle": "Product Designer",
-						"picture": "img/experiences/novaday/partners/arman.jpg"
-					},
-					{
-						"name": "Maral Navid",
-						"jobTitle": "Accounting",
-						"picture": "img/experiences/novaday/partners/maral.jpg"
-					},
-					{
-						"name": "Mona Navid",
-						"jobTitle": "Accounting",
-						"picture": "img/experiences/novaday/partners/mona.jpg"
 					}
 				],
 				"achievements": ""
@@ -207,34 +118,6 @@
 				{
 					"link": "img/experiences/darchin/1.jpg",
 					"title": "Opening conference"
-				},
-				{
-					"link": "img/experiences/darchin/2.jpg",
-					"title": "Making Promotional Video"
-				},
-				{
-					"link": "img/experiences/darchin/3.jpg",
-					"title": "Promotional Events"
-				},
-				{
-					"link": "img/experiences/darchin/4.jpg",
-					"title": "Making Promotional Video"
-				},
-				{
-					"link": "img/experiences/darchin/5.jpg",
-					"title": "With Our Great Marketing Team"
-				},
-				{
-					"link": "img/experiences/darchin/6.jpg",
-					"title": ""
-				},
-				{
-					"link": "img/experiences/darchin/7.jpg",
-					"title": "First Contract"
-				},
-				{
-					"link": "img/experiences/darchin/8.jpg",
-					"title": "Our Analysis Team"
 				}
 			],
 			"details": {
@@ -247,31 +130,6 @@
 						"name": "Ali Soleymani",
 						"jobTitle": "Co-Founder - Android Developer",
 						"picture": "img/experiences/darchin/partners/soleymani.jpg"
-					},
-					{
-						"name": "Hossein Askari",
-						"jobTitle": "Front-End Developer",
-						"picture": "img/experiences/darchin/partners/askari.png"
-					},
-					{
-						"name": "Emad Abdoshahi",
-						"jobTitle": "Photographer",
-						"picture": "img/experiences/darchin/partners/emad.jpg"
-					},
-					{
-						"name": "Mohsen Ameri",
-						"jobTitle": "Graphic Designer",
-						"picture": "img/experiences/darchin/partners/mohsen.jpg"
-					},
-					{
-						"name": "Mobina Montazeri",
-						"jobTitle": "Digital Marketing Supervisor",
-						"picture": "img/experiences/darchin/partners/mobina.jpg"
-					},
-					{
-						"name": "Kimia Mahmoodi",
-						"jobTitle": "Digital Marketing Member",
-						"picture": "img/experiences/darchin/partners/kimia.jpg"
 					}
 				],
 				"achievements": "Improvement in Laravel, Team Management, Business Modeling, Startup challenges"
@@ -285,14 +143,6 @@
 			"images": [
 				{
 					"link": "img/memories/parsua-1.jpg",
-					"title": "Parsua"
-				},
-				{
-					"link": "img/memories/parsua-2.jpg",
-					"title": "Parsua"
-				},
-				{
-					"link": "img/memories/parsua-3.jpg",
 					"title": "Parsua"
 				}
 			]
