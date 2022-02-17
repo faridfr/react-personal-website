@@ -20,6 +20,8 @@ node_modules
 .env.production.local
 
 src/config.json
+src/img
+public/img
 
 # experiences images
 *unselected*

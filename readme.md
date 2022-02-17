@@ -1,4 +1,4 @@
-![React Personal Website](https://raw.githubusercontent.com/faridfr/react-personal-website/master/public/img/readme.png)
+![React Personal Website](https://raw.githubusercontent.com/faridfr/react-personal-website/master/public/github/readme.png)
 
 # React.js personal website for developers
 
