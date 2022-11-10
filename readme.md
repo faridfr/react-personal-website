@@ -4,6 +4,7 @@
 <h5>Do you want admin panel ? see <a href="https://github.com/faridfr/redwoodjs-personal-website">redwoodjs-personal-website</a> repository</h5>
 </div>
 
+<hr>
 
 ### Demo
 [https://FaridFr.ir](https://FaridFr.ir)
@@ -12,13 +13,13 @@
 
 - Clone the project
 - Copy `src/config-sample.json` to `src/config.json`
-- Change `src/config.json`
-- `npm install`
+- Change `src/config.json` and set your website data
+- `npm install` or `yarn`
 - `npm start`
 
-### For Github Page :
+### Deploy on github.io ( Github Page ) :
 
-- We need to install GitHub Pages package as a dev-dependency
+- You need to install GitHub Pages package as a dev-dependency
 ```
 cd react-personal-website
 npm install gh-pages --save-dev
