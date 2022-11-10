@@ -10,7 +10,7 @@
 		"about": "",
 		"images": [
 			{
-				"background_image": "/img/5.jpg",
+				"background_image": "placeholder.png",
 				"background_position": "center"
 			}
 		]
@@ -29,7 +29,7 @@
 	],
 	"experiences": [
 		{
-			"logo": "img/logos/novaday.png",
+			"logo": "placeholder.png",
 			"title": "CEO - Novaday",
 			"time": "Jun 2021 - Present",
 			"location": "Iran , Tehran",
@@ -37,7 +37,7 @@
 			"status": "online",
 			"images": [
 			{
-					"link": "img/experiences/novaday/3.jpg",
+					"link": "placeholder.png",
 					"title": "Novaday Company"
 			}
 			],
@@ -50,7 +50,7 @@
 					{
 						"name": "Mahdad Ghasemian",
 						"jobTitle": "IoT Engineer",
-						"picture": "img/experiences/novaday/partners/mahdad.jpg"
+						"picture": "placeholder.png"
 					}
 				],
 				"achievements": ""
@@ -59,7 +59,7 @@
 	],
 	"projects": [
 		{
-			"logo": "img/logos/darchin-color.png",
+			"logo": "placeholder.png",
 			"title": "Founder - Darchin",
 			"time": "Apr 2018 - Sep 2019",
 			"location": "Iran , Shahrood",
@@ -67,7 +67,7 @@
 			"status": "away",
 			"images": [
 				{
-					"link": "img/experiences/darchin/1.jpg",
+					"link": "placeholder.png",
 					"title": "Opening conference"
 				}
 			],
@@ -80,7 +80,7 @@
 					{
 						"name": "Ali Soleymani",
 						"jobTitle": "Co-Founder - Android Developer",
-						"picture": "img/experiences/darchin/partners/soleymani.jpg"
+						"picture": "placeholder.png"
 					}
 				],
 				"achievements": "Improvement in Laravel, Team Management, Business Modeling, Startup challenges"
@@ -93,7 +93,7 @@
 			"description": "Little company in Iran - Shahrood",
 			"images": [
 				{
-					"link": "img/memories/parsua-1.jpg",
+					"link": "placeholder.png",
 					"title": "Parsua"
 				}
 			]
@@ -101,7 +101,7 @@
 	],
 	"educations": [
 		{
-			"logo": "img/logos/master.png",
+			"logo": "placeholder.png",
 			"title": "Islamic Azad University",
 			"time": "2019 - 2022",
 			"description": "Master's degree - Software Engineering"
