@@ -1,0 +1,116 @@
+{
+	"settings": {
+		"textColor": "white",
+		"backgroundColor": "#0D1117",
+		"padding": "50"
+	},
+	"info": {
+		"name": "Farid Froozan",
+		"jobTitle": "CEO at Novaday",
+		"about": "",
+		"images": [
+			{
+				"background_image": "/img/5.jpg",
+				"background_position": "center"
+			}
+		]
+	},
+	"skills": [
+		{
+			"header": {
+				"name": "server side",
+				"color": "rgb(255, 193, 7, 0.5)",
+				"percent": "90"
+			},
+			"skills": [
+				{ "name": "PHP Fundamental", "degree": "senior" }
+			]
+		}
+	],
+	"experiences": [
+		{
+			"logo": "img/logos/novaday.png",
+			"title": "CEO - Novaday",
+			"time": "Jun 2021 - Present",
+			"location": "Iran , Tehran",
+			"description": "CEO at Novaday",
+			"status": "online",
+			"images": [
+			{
+					"link": "img/experiences/novaday/3.jpg",
+					"title": "Novaday Company"
+			}
+			],
+			"details": {
+				"members": "+ 10",
+				"type": "Co-Founder, Member of the board",
+				"period": "Newly founded",
+				"tecs": ["PHP", "Laravel", "Redis", "Vue.js","LiveWire","MQTT","Flutter","Kotlin","Elasticsearch"],
+				"partners": [
+					{
+						"name": "Mahdad Ghasemian",
+						"jobTitle": "IoT Engineer",
+						"picture": "img/experiences/novaday/partners/mahdad.jpg"
+					}
+				],
+				"achievements": ""
+			}
+		}
+	],
+	"projects": [
+		{
+			"logo": "img/logos/darchin-color.png",
+			"title": "Founder - Darchin",
+			"time": "Apr 2018 - Sep 2019",
+			"location": "Iran , Shahrood",
+			"description": "Darchin was an API based online food ordering system that developed with Laravel and Vuejs . In addition to managing the team , i was Back-End developer ( Laravel ) and Schema Designer . I developed API based system with a complete document for other developers .",
+			"status": "away",
+			"images": [
+				{
+					"link": "img/experiences/darchin/1.jpg",
+					"title": "Opening conference"
+				}
+			],
+			"details": {
+				"members": "8",
+				"type": "Self Employed - Full Time",
+				"period": "18 month",
+				"tecs": ["PHP", "Laravel", "Vue.js"],
+				"partners": [
+					{
+						"name": "Ali Soleymani",
+						"jobTitle": "Co-Founder - Android Developer",
+						"picture": "img/experiences/darchin/partners/soleymani.jpg"
+					}
+				],
+				"achievements": "Improvement in Laravel, Team Management, Business Modeling, Startup challenges"
+			}
+		}
+	],
+	"memories": [
+		{
+			"title": "Developer at Parsua",
+			"description": "Little company in Iran - Shahrood",
+			"images": [
+				{
+					"link": "img/memories/parsua-1.jpg",
+					"title": "Parsua"
+				}
+			]
+		}
+	],
+	"educations": [
+		{
+			"logo": "img/logos/master.png",
+			"title": "Islamic Azad University",
+			"time": "2019 - 2022",
+			"description": "Master's degree - Software Engineering"
+		}
+	],
+	"contact": {
+		"mobile": "+98 936 XXX XXX",
+		"email": "XXX [at] yahoo.com",
+		"github": "faridfr",
+		"linkedin": "in/faridfroozan"
+	}
+}
