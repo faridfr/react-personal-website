@@ -7,7 +7,7 @@
 <hr>
 
 ### Demo
-[https://FaridFr.ir](https://FaridFr.ir)
+[https://resume.faridfr.ir](https://resume.faridfr.ir)
 
 ### Installation
 
